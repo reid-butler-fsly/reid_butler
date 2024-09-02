@@ -1,0 +1,79 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch GCP-Transcode
+# Changes to be committed:
+#	modified:   .bash_history
+#	new file:   .codeoss/data/User/History/-422a496d/WXPk.json
+#	modified:   .codeoss/data/User/History/-422a496d/entries.json
+#	modified:   .codeoss/data/User/workspaceStorage/6c2144b5-1/vscode.lock
+#	modified:   .codeoss/data/User/workspaceStorage/6c2144b5-2/vscode.lock
+#	modified:   .codeoss/data/User/workspaceStorage/6c2144b5/vscode.lock
+#	modified:   .codeoss/data/logs/20240902T105827/exthost1/vscode.git/Git.log
+#	modified:   .codeoss/data/logs/20240902T105827/exthost2/ms-python.python/Python.log
+#	modified:   .codeoss/data/logs/20240902T105827/exthost2/output_logging_20240902T113009/3-EditorConfig.log
+#	modified:   .codeoss/data/logs/20240902T105827/exthost2/output_logging_20240902T113009/7-Gemini Code Assist.log
+#	modified:   .codeoss/data/logs/20240902T105827/exthost2/remoteexthost.log
+#	modified:   .codeoss/data/logs/20240902T105827/exthost2/vscode.git/Git.log
+#	modified:   .codeoss/data/logs/20240902T105827/exthost3/ms-python.python/Python Language Server.log
+#	modified:   .codeoss/data/logs/20240902T105827/exthost3/output_logging_20240902T115012/3-EditorConfig.log
+#	new file:   .codeoss/data/logs/20240902T105827/exthost3/output_logging_20240902T115012/7-Gemini Code Assist.log
+#	modified:   .codeoss/data/logs/20240902T105827/exthost3/remoteexthost.log
+#	modified:   .codeoss/data/logs/20240902T105827/exthost3/vscode.git/Git.log
+#	modified:   .codeoss/data/logs/20240902T105827/remoteagent.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost1/ms-python.python/Python Language Server.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost1/ms-python.python/Python.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost1/output_logging_20240902T140253/1-Python Test Log.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost1/output_logging_20240902T140253/2-Google Cloud CLI Installation.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost1/output_logging_20240902T140253/3-EditorConfig.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost1/output_logging_20240902T140253/4-Red Hat Dependency Analytics.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost1/output_logging_20240902T140253/5-Apigee.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost1/output_logging_20240902T140253/6-Cloud Code Yaml Support.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost1/remoteexthost.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost1/vscode.git/Git.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost1/vscode.github-authentication/GitHub Authentication.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost1/vscode.github/GitHub.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost1/vscode.json-language-features/JSON Language Server.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost2/ms-python.python/Python Language Server.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost2/ms-python.python/Python.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost2/output_logging_20240902T140256/1-Python Test Log.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost2/output_logging_20240902T140256/2-Red Hat Dependency Analytics.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost2/output_logging_20240902T140256/3-Google Cloud CLI Installation.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost2/output_logging_20240902T140256/4-EditorConfig.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost2/output_logging_20240902T140256/5-Apigee.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost2/output_logging_20240902T140256/6-Cloud Code Yaml Support.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost2/remoteexthost.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost2/vscode.git/Git.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost2/vscode.github-authentication/GitHub Authentication.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost2/vscode.github/GitHub.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost2/vscode.json-language-features/JSON Language Server.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost3/ms-python.python/Python Language Server.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost3/ms-python.python/Python.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost3/output_logging_20240902T140257/1-Python Test Log.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost3/output_logging_20240902T140257/2-Red Hat Dependency Analytics.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost3/output_logging_20240902T140257/3-Google Cloud CLI Installation.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost3/output_logging_20240902T140257/4-EditorConfig.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost3/output_logging_20240902T140257/5-Apigee.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost3/output_logging_20240902T140257/6-Cloud Code Yaml Support.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost3/remoteexthost.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost3/vscode.git/Git.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost3/vscode.github-authentication/GitHub Authentication.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost3/vscode.github/GitHub.log
+#	new file:   .codeoss/data/logs/20240902T140201/exthost3/vscode.json-language-features/JSON Language Server.log
+#	new file:   .codeoss/data/logs/20240902T140201/network.log
+#	new file:   .codeoss/data/logs/20240902T140201/ptyhost.log
+#	new file:   .codeoss/data/logs/20240902T140201/remoteagent.log
+#	new file:   .emacs.d/auto-save-list/.saves-11515-cs-501977352500-default~
+#	new file:   .npm/_logs/2024-09-02T14_02_03_202Z-debug-0.log
+#	new file:   .npm/_logs/2024-09-02T14_02_49_181Z-debug-0.log
+#	new file:   .npm/_logs/2024-09-02T14_03_00_259Z-debug-0.log
+#	new file:   .npm/_logs/2024-09-02T14_09_27_668Z-debug-0.log
+#	new file:   .npm/_logs/2024-09-02T14_10_27_607Z-debug-0.log
+#	new file:   .npm/_logs/2024-09-02T14_10_27_706Z-debug-0.log
+#	new file:   python-docs-samples
+#
+# Changes not staged for commit:
+#	modified:   .codeoss/data/logs/20240902T140201/exthost1/vscode.git/Git.log
+#	modified:   python-docs-samples (modified content)
+#

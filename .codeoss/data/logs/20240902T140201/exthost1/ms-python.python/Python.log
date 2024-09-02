@@ -4,3 +4,5 @@
 2024-09-02 14:02:57.552 [info] > pyenv which python
 2024-09-02 14:02:57.552 [info] cwd: .
 2024-09-02 14:03:25.577 [info] Starting Jedi language server for reid_butler.
+2024-09-02 14:31:21.735 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/input_test.py
+2024-09-02 14:32:11.334 [info] Discover tests for workspace name: undefined - uri: /User/settings.json

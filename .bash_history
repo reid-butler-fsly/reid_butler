@@ -210,3 +210,7 @@ gcloud config set project se-development-9566
 git remote add origin https://github.com/reid-butler-fsly/fastly_demos.git
 git branch -M main
 git push -u origin main
+git_commit
+git-commit
+git init
+git-commit
