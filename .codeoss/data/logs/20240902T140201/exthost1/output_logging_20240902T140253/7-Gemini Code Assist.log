@@ -78,3 +78,8 @@ I0902 14:32:11.393831    3990 rag_cache.go:155] The current document with URI fi
 I0902 14:32:18.622335    3990 life_cycle.go:262] codeReportEvery: recomputing codereport metric
 W0902 14:33:11.989798    3990 document.go:433] Unable to determine a file extension for the file: %v: %v/home/reid_butler/python-docs-samples/.git/COMMIT_EDITMSGunknown language: git-commit
 W0902 14:34:20.751679    3990 document.go:433] Unable to determine a file extension for the file: %v: %v/home/reid_butler/python-docs-samples/.git/COMMIT_EDITMSGunknown language: git-commit
+W0902 14:35:36.034399    3990 document.go:433] Unable to determine a file extension for the file: %v: %v/home/reid_butler/.git/COMMIT_EDITMSGunknown language: git-commit
+W0902 14:35:36.034492    3990 document.go:433] Unable to determine a file extension for the file: %v: %v/home/reid_butler/python-docs-samples/.git/COMMIT_EDITMSGunknown language: git-commit
+W0902 14:35:57.224877    3990 document.go:433] Unable to determine a file extension for the file: %v: %v/home/reid_butler/python-docs-samples/.git/COMMIT_EDITMSGunknown language: git-commit
+W0902 14:35:57.224971    3990 document.go:433] Unable to determine a file extension for the file: %v: %v/home/reid_butler/.git/COMMIT_EDITMSGunknown language: git-commit
+I0902 14:36:18.622272    3990 life_cycle.go:262] codeReportEvery: recomputing codereport metric
