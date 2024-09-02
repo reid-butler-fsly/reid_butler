@@ -647,3 +647,4 @@ __main__.VenvError: CREATE_VENV.PIP_FAILED_INSTALL_REQUIREMENTS
 2024-09-02 12:57:45.912 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
 2024-09-02 12:57:46.492 [info] Send text to terminal: /bin/python /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
 2024-09-02 12:58:31.958 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/input_test.py
+2024-09-02 13:46:04.672 [info] Discover tests for workspace name: undefined - uri: /User/settings.json

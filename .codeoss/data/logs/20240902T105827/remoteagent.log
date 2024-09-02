@@ -182,3 +182,5 @@
 2024-09-02 11:56:26.829 [warning] RequestStore#acceptReply was called without receiving a matching request 154
 2024-09-02 11:56:26.829 [warning] RequestStore#acceptReply was called without receiving a matching request 155
 2024-09-02 11:56:26.830 [warning] RequestStore#acceptReply was called without receiving a matching request 156
+2024-09-02 14:01:49.026 [info] [127.0.0.1][58796798][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-02 14:01:49.379 [info] [127.0.0.1][e04144e8][ExtensionHostConnection] <5170> Extension Host Process exited with code: 0, signal: null.

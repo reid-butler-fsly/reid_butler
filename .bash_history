@@ -201,3 +201,12 @@ git config --global core.editor emacs
 git config --global init.defaultBranch main
 git config --list
 git init
+git rm --cached python-docs-samples
+-f
+git rm --cached python-docs-samples -f
+git init
+git commit[1]
+gcloud config set project se-development-9566
+git remote add origin https://github.com/reid-butler-fsly/fastly_demos.git
+git branch -M main
+git push -u origin main

@@ -390,3 +390,47 @@ I0902 13:27:09.264681    9143 experiments.go:148] Applied experiment flag "DuetA
 I0902 13:27:09.264697    9143 experiments.go:152] Applied experiment flag "DuetAiLocalRag__cache_total_files" to totalFiles with value 250
 I0902 13:27:09.264710    9143 experiments.go:109] Applied experiment flag "DuetAiMendelOverrides__codeCompletion_defaultThreshold" to completionOpts.minScoreTheshold with value -4.1
 I0902 13:27:09.264772    9143 configuration.go:394] Repopulating context cache from document cache
+W0902 13:27:52.790827    9143 document.go:433] Unable to determine a file extension for the file: %v: %v/home/reid_butler/.git/COMMIT_EDITMSGunknown language: git-commit
+W0902 13:27:52.793053    9143 document.go:433] Unable to determine a file extension for the file: %v: %v/home/reid_butler/python-docs-samples/.git/COMMIT_EDITMSGunknown language: git-commit
+W0902 13:27:58.002791    9143 document.go:433] Unable to determine a file extension for the file: %v: %v/home/reid_butler/.git/COMMIT_EDITMSGunknown language: git-commit
+W0902 13:27:58.005324    9143 document.go:433] Unable to determine a file extension for the file: %v: %v/home/reid_butler/python-docs-samples/.git/COMMIT_EDITMSGunknown language: git-commit
+W0902 13:28:30.287650    9143 document.go:433] Unable to determine a file extension for the file: %v: %v/home/reid_butler/.git/COMMIT_EDITMSGunknown language: git-commit
+W0902 13:28:30.290061    9143 document.go:433] Unable to determine a file extension for the file: %v: %v/home/reid_butler/python-docs-samples/.git/COMMIT_EDITMSGunknown language: git-commit
+W0902 13:30:08.362827    9143 document.go:433] Unable to determine a file extension for the file: %v: %v/home/reid_butler/.git/COMMIT_EDITMSGunknown language: git-commit
+W0902 13:30:08.365441    9143 document.go:433] Unable to determine a file extension for the file: %v: %v/home/reid_butler/python-docs-samples/.git/COMMIT_EDITMSGunknown language: git-commit
+W0902 13:31:00.507995    9143 document.go:433] Unable to determine a file extension for the file: %v: %v/home/reid_butler/.git/COMMIT_EDITMSGunknown language: git-commit
+W0902 13:31:00.510493    9143 document.go:433] Unable to determine a file extension for the file: %v: %v/home/reid_butler/python-docs-samples/.git/COMMIT_EDITMSGunknown language: git-commit
+W0902 13:31:05.170798    9143 document.go:433] Unable to determine a file extension for the file: %v: %v/home/reid_butler/python-docs-samples/.git/COMMIT_EDITMSGunknown language: git-commit
+W0902 13:31:05.170865    9143 document.go:433] Unable to determine a file extension for the file: %v: %v/home/reid_butler/.git/COMMIT_EDITMSGunknown language: git-commit
+W0902 13:31:12.644622    9143 document.go:433] Unable to determine a file extension for the file: %v: %v/home/reid_butler/.git/COMMIT_EDITMSGunknown language: git-commit
+W0902 13:31:12.646683    9143 document.go:433] Unable to determine a file extension for the file: %v: %v/home/reid_butler/python-docs-samples/.git/COMMIT_EDITMSGunknown language: git-commit
+W0902 13:31:25.985170    9143 document.go:433] Unable to determine a file extension for the file: %v: %v/home/reid_butler/python-docs-samples/.git/COMMIT_EDITMSGunknown language: git-commit
+W0902 13:31:27.822142    9143 ide_context.go:40] Failed to fetchOtherDocs: trying to get document with URI uncached
+W0902 13:31:32.342041    9143 document.go:433] Unable to determine a file extension for the file: %v: %v/home/reid_butler/python-docs-samples/.git/COMMIT_EDITMSGunknown language: git-commit
+W0902 13:46:04.573988    9143 server.go:549] unknown method "$/setTrace"
+I0902 13:46:04.599220    9143 configuration.go:171] product updateChannel will be used
+I0902 13:46:04.599301    9143 configuration.go:568] language thresholds: map[]
+I0902 13:46:04.599340    9143 configuration.go:526] dataFileExtensions array: [.csv .tsv .jsonl]
+I0902 13:46:04.599379    9143 configuration.go:768] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc001304919 StopSequences:map[] DataFilePromptLines:0}
+I0902 13:46:04.599450    9143 configuration.go:768] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc001304969 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I0902 13:46:04.599531    9143 configuration.go:251] Configured settings for atlasOpts: {"Project":"se-development-9566","LogPrompt":true,"UseTypeoverCache":true,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I0902 13:46:04.599560    9143 configuration.go:259] Configured settings for cloudCodeOpts: {"Project":"se-development-9566","LogPrompt":true,"UseTypeoverCache":true}
+I0902 13:46:04.599581    9143 configuration.go:263] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:50000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 deletionCompletion:true otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0} chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:true enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288}
+I0902 13:46:04.599656    9143 configuration.go:265] Configured settings for canCancelRequests: true
+I0902 13:46:04.599673    9143 configuration.go:267] Configured settings for contextPromptOpts: &{Endpoint:}
+I0902 13:46:04.605702    9143 experiments.go:121] Applied experiment flag "DuetAiCompletion__codeCompletion_triggerForDeletion" to completionOpts.deletionCompletion with value false
+I0902 13:46:04.605777    9143 experiments.go:136] Applied experiment flag "DuetAiLocalRag__enable_local_rag_completion" to enableRAGLCompletion with value true
+I0902 13:46:04.605790    9143 experiments.go:132] Applied experiment flag "DuetAiLocalRag__enable_local_rag_chat" to enableRAGLChat with value true
+I0902 13:46:04.605805    9143 experiments.go:128] Applied experiment flag "DuetAiLocalRag__enable_local_rag" to enableRAGL with value true
+I0902 13:46:04.605818    9143 experiments.go:105] Applied experiment flag "DuetAiCloudCodeAPI__enable_cloudcode_api" to useCloudCodeAPI with value true
+I0902 13:46:04.605840    9143 experiments.go:101] Applied experiment flag "Chat__chat_context_window_size" to chat.contextWindowSize with value -1
+I0902 13:46:04.605850    9143 experiments.go:97] Applied experiment flag "DuetAiGeneration__codeGeneration_context_window_size" to otherFilesGenerationSizeLimit with value 64000
+I0902 13:46:04.605864    9143 experiments.go:160] Applied experiment flag "DuetAiLocalRag__otherfiles_chat_limit" to otherFilesChatLimit with value 20
+I0902 13:46:04.605878    9143 experiments.go:156] Applied experiment flag "DuetAiLocalRag__otherfiles_completion_limit" to otherFilesCompletionLimit with value 15
+I0902 13:46:04.605890    9143 experiments.go:140] Applied experiment flag "DuetAiLocalRag__otherfiles_generation_limit" to otherFilesGenerationLimit with value 40
+I0902 13:46:04.605906    9143 experiments.go:113] Applied experiment flag "DuetAiMendelOverrides__inlineSuggestions_debounceMs" to completionOpts.debounce with value 300
+I0902 13:46:04.605919    9143 experiments.go:144] Applied experiment flag "DuetAiLocalRag__cache_co_located" to coLocated with value 20
+I0902 13:46:04.605935    9143 experiments.go:148] Applied experiment flag "DuetAiLocalRag__cache_file_limit" to fileLimit with value 524288
+I0902 13:46:04.605945    9143 experiments.go:152] Applied experiment flag "DuetAiLocalRag__cache_total_files" to totalFiles with value 250
+I0902 13:46:04.605956    9143 experiments.go:109] Applied experiment flag "DuetAiMendelOverrides__codeCompletion_defaultThreshold" to completionOpts.minScoreTheshold with value -4.1
+I0902 13:46:04.606000    9143 configuration.go:394] Repopulating context cache from document cache

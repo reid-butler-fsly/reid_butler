@@ -182,3 +182,5 @@ Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
 2024-09-02 13:27:30.112 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [30ms]
 2024-09-02 13:27:30.112 [warning] No such branch: main.
 2024-09-02 13:27:30.318 [info] > git status -z -uall [135ms]
+2024-09-02 13:28:28.382 [info] > git check-ignore -v -z --stdin [26ms]
+2024-09-02 13:28:28.388 [info] > git check-ignore -v -z --stdin [8ms]

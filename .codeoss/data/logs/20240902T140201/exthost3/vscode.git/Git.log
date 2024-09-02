@@ -1,0 +1,48 @@
+2024-09-02 14:03:19.129 [info] Log level: Info
+2024-09-02 14:03:19.130 [info] Validating found git in: "git"
+2024-09-02 14:03:19.130 [info] Using git "2.34.1" from "git"
+2024-09-02 14:03:19.131 [info] > git rev-parse --show-toplevel [1452ms]
+2024-09-02 14:03:19.131 [info] > git rev-parse --git-dir --git-common-dir [224ms]
+2024-09-02 14:03:19.131 [info] Open repository: /home/reid_butler
+2024-09-02 14:03:19.132 [info] > git config --get commit.template [80ms]
+2024-09-02 14:03:19.141 [info] > git rev-parse --show-toplevel [129ms]
+2024-09-02 14:03:19.198 [info] No remotes found in the git config file.
+2024-09-02 14:03:19.356 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [160ms]
+2024-09-02 14:03:19.359 [warning] No such branch: main.
+2024-09-02 14:03:19.600 [info] > git rev-parse --git-dir --git-common-dir [352ms]
+2024-09-02 14:03:19.643 [info] Open repository: /home/reid_butler/python-docs-samples
+2024-09-02 14:03:19.941 [info] > git status -z -uall [492ms]
+2024-09-02 14:03:19.944 [info] > git rev-parse --show-toplevel [64ms]
+2024-09-02 14:03:19.950 [info] > git config --get commit.template [154ms]
+2024-09-02 14:03:23.591 [info] > git config --get commit.template [150ms]
+2024-09-02 14:03:23.592 [info] > git rev-parse --show-toplevel [212ms]
+2024-09-02 14:03:23.732 [info] No remotes found in the git config file.
+2024-09-02 14:03:23.734 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [148ms]
+2024-09-02 14:03:23.784 [warning] ENOENT: no such file or directory, open '/home/reid_butler/python-docs-samples/.git/refs/remotes/origin/main'
+2024-09-02 14:03:23.785 [info] > git rev-parse --show-toplevel [109ms]
+2024-09-02 14:03:23.850 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [119ms]
+2024-09-02 14:03:23.850 [warning] No such branch: main.
+2024-09-02 14:03:23.909 [info] > git rev-parse --show-toplevel [61ms]
+2024-09-02 14:03:23.911 [info] > git rev-parse refs/remotes/origin/main [127ms]
+2024-09-02 14:03:24.125 [info] > git status -z -uall [217ms]
+2024-09-02 14:03:26.542 [info] > git status -z -uall [2538ms]
+2024-09-02 14:03:26.632 [info] > git rev-parse --show-toplevel [2515ms]
+2024-09-02 14:03:26.749 [info] > git merge-base refs/heads/main refs/remotes/origin/main [132ms]
+2024-09-02 14:03:26.812 [info] > git rev-parse --show-toplevel [64ms]
+2024-09-02 14:03:26.813 [info] > git config --get commit.template [129ms]
+2024-09-02 14:03:26.946 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [139ms]
+2024-09-02 14:03:26.995 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [51ms]
+2024-09-02 14:03:26.996 [info] > git rev-parse --show-toplevel [85ms]
+2024-09-02 14:03:27.049 [warning] ENOENT: no such file or directory, open '/home/reid_butler/python-docs-samples/.git/refs/remotes/origin/main'
+2024-09-02 14:03:27.111 [info] > git rev-parse refs/remotes/origin/main [58ms]
+2024-09-02 14:03:27.271 [info] > git diff --name-status -z --diff-filter=ADMR 4a9628160438b9117d4d5ae4bffc8e133359b468...refs/remotes/origin/main [278ms]
+2024-09-02 14:03:27.890 [info] > git status -z -uall [620ms]
+2024-09-02 14:03:27.910 [info] > git rev-parse --show-toplevel [804ms]
+2024-09-02 14:03:28.031 [info] > git rev-parse --show-toplevel [55ms]
+2024-09-02 14:03:28.359 [info] > git check-ignore -v -z --stdin [94ms]
+2024-09-02 14:03:28.363 [info] > git check-ignore -v -z --stdin [67ms]
+2024-09-02 14:03:28.369 [info] > git rev-parse --show-toplevel [195ms]
+2024-09-02 14:03:28.505 [info] > git rev-parse --show-toplevel [66ms]
+2024-09-02 14:04:28.124 [info] > git show --textconv :video/live-stream/input_test.py [806ms]
+2024-09-02 14:04:28.125 [info] > git ls-files --stage -- /home/reid_butler/python-docs-samples/video/live-stream/input_test.py [739ms]
+2024-09-02 14:04:28.235 [info] > git cat-file -s 5bcb7225e9af8d2c650e48402ebb05065164f157 [22ms]

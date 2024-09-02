@@ -1,0 +1,36 @@
+I0902 13:58:42.399578   11681 serve.go:43] cloudcode_cli (Jul  2 2024 12:01:58 -0700, cl:648796832 baseline:648796263)
+I0902 13:58:42.399644   11681 serve.go:44] Command line: ["/home/reid_butler/.cache/cloud-code/cloudcode_cli/cloudcode_cli/linux_amd64/cloudcode_cli" "duet" "-logtostderr"]
+I0902 13:58:42.406608   11681 life_cycle.go:135] Initializing. Architecture: "amd64", Operating system: "linux"
+I0902 13:58:42.472008   11681 configuration.go:171] product updateChannel will be used
+I0902 13:58:42.472055   11681 configuration.go:568] language thresholds: map[]
+I0902 13:58:42.472078   11681 configuration.go:526] dataFileExtensions array: [.csv .tsv .jsonl]
+I0902 13:58:42.472104   11681 configuration.go:768] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc0009e0949 StopSequences:map[] DataFilePromptLines:0}
+I0902 13:58:42.472147   11681 configuration.go:768] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc0009e0999 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I0902 13:58:42.472345   11681 configuration.go:251] Configured settings for atlasOpts: {"Project":"se-development-9566","LogPrompt":true,"UseTypeoverCache":true,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I0902 13:58:42.472365   11681 configuration.go:263] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:50000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 deletionCompletion:true otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0} chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:false enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288}
+I0902 13:58:42.472405   11681 configuration.go:265] Configured settings for canCancelRequests: true
+I0902 13:58:42.472418   11681 configuration.go:267] Configured settings for contextPromptOpts: &{Endpoint:}
+I0902 13:58:42.475573   11681 atlas.go:52] Using gRPC to access Atlas
+I0902 13:58:42.478500   11681 atlas.go:112] CompleteCode request: parent:"projects/se-development-9566/locations/global" request_id:"cloudcode-648796832-358cab79-f6b5-43cf-baab-54fa7e695db1" prompt:{experience:COMPLETE prefix:"healthcheck-2040b043-78a8-4f49-b76e-83e7dc5ee0f2" temperature:0.2 max_output_tokens:64 expected_samples:4}
+I0902 13:58:42.478962   11681 atlas.go:124] Atlas GenerateCode request ID: cloudcode-648796832-358cab79-f6b5-43cf-baab-54fa7e695db1
+I0902 13:58:42.616900   11681 handler.go:142] cancel was requested for: 2, needs to be canceled: true
+I0902 13:58:42.840449   11681 atlas.go:132] CompleteCode response: 
+I0902 13:58:42.840543   11681 handler.go:129] req #2 skipped: context canceled
+I0902 13:58:46.427663   11681 experiments.go:132] Applied experiment flag "DuetAiLocalRag__enable_local_rag_chat" to enableRAGLChat with value true
+I0902 13:58:46.427705   11681 experiments.go:105] Applied experiment flag "DuetAiCloudCodeAPI__enable_cloudcode_api" to useCloudCodeAPI with value true
+I0902 13:58:46.427756   11681 experiments.go:121] Applied experiment flag "DuetAiCompletion__codeCompletion_triggerForDeletion" to completionOpts.deletionCompletion with value false
+I0902 13:58:46.427770   11681 experiments.go:128] Applied experiment flag "DuetAiLocalRag__enable_local_rag" to enableRAGL with value true
+I0902 13:58:46.427781   11681 experiments.go:136] Applied experiment flag "DuetAiLocalRag__enable_local_rag_completion" to enableRAGLCompletion with value true
+I0902 13:58:46.427796   11681 experiments.go:101] Applied experiment flag "Chat__chat_context_window_size" to chat.contextWindowSize with value -1
+I0902 13:58:46.427809   11681 experiments.go:97] Applied experiment flag "DuetAiGeneration__codeGeneration_context_window_size" to otherFilesGenerationSizeLimit with value 64000
+I0902 13:58:46.427827   11681 experiments.go:160] Applied experiment flag "DuetAiLocalRag__otherfiles_chat_limit" to otherFilesChatLimit with value 20
+I0902 13:58:46.427840   11681 experiments.go:156] Applied experiment flag "DuetAiLocalRag__otherfiles_completion_limit" to otherFilesCompletionLimit with value 15
+I0902 13:58:46.427850   11681 experiments.go:140] Applied experiment flag "DuetAiLocalRag__otherfiles_generation_limit" to otherFilesGenerationLimit with value 40
+I0902 13:58:46.427861   11681 experiments.go:113] Applied experiment flag "DuetAiMendelOverrides__inlineSuggestions_debounceMs" to completionOpts.debounce with value 300
+I0902 13:58:46.427873   11681 experiments.go:144] Applied experiment flag "DuetAiLocalRag__cache_co_located" to coLocated with value 20
+I0902 13:58:46.427886   11681 experiments.go:148] Applied experiment flag "DuetAiLocalRag__cache_file_limit" to fileLimit with value 524288
+I0902 13:58:46.427900   11681 experiments.go:152] Applied experiment flag "DuetAiLocalRag__cache_total_files" to totalFiles with value 250
+I0902 13:58:46.427914   11681 experiments.go:109] Applied experiment flag "DuetAiMendelOverrides__codeCompletion_defaultThreshold" to completionOpts.minScoreTheshold with value -4.1
+I0902 13:58:46.427938   11681 configuration.go:394] Repopulating context cache from document cache
+I0902 13:58:46.472183   11681 cloudcode.go:40] Using Cloud Code API
+I0902 13:58:46.482180   11681 client.go:182] CompleteCode request: {"ideContext":{"currentFile":{"segments":[{"content":"healthcheck-6f45e037-02a1-45f2-8c1f-69704dd6eac1"},{"isSelected":true},{}]}},"project":"se-development-9566","requestId":"cloudcode-648796832-3315ce64-4859-46a7-a9a7-64d38e4f12e4"}

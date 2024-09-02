@@ -485,3 +485,79 @@ Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
 2024-09-02 13:27:09.523 [info] > git check-ignore -v -z --stdin [100ms]
 2024-09-02 13:27:09.668 [info] > git check-ignore -v -z --stdin [179ms]
 2024-09-02 13:27:14.107 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-02 13:27:50.697 [info] > git add -A -- . [34859ms]
+2024-09-02 13:27:50.697 [info] warning: adding embedded git repository: python-docs-samples
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> python-docs-samples
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached python-docs-samples
+hint: 
+hint: See "git help submodule" for more information.
+2024-09-02 13:27:52.625 [info] > git ls-files --stage -- /home/reid_butler/python-docs-samples/.git/COMMIT_EDITMSG [6ms]
+2024-09-02 13:27:52.733 [info] > git show --textconv :.git/COMMIT_EDITMSG [7ms]
+2024-09-02 13:27:52.987 [info] > git show --textconv :.git/COMMIT_EDITMSG [34ms]
+2024-09-02 13:27:52.990 [info] > git ls-files --stage -- /home/reid_butler/.git/COMMIT_EDITMSG [5ms]
+2024-09-02 13:27:53.228 [info] > git check-ignore -v -z --stdin [5ms]
+2024-09-02 13:29:00.154 [info] > git ls-files --stage -- /home/reid_butler/.git/COMMIT_EDITMSG [4ms]
+2024-09-02 13:29:00.241 [info] > git show --textconv :.git/COMMIT_EDITMSG [5ms]
+2024-09-02 13:29:24.156 [info] > git ls-files --stage -- /home/reid_butler/.git/COMMIT_EDITMSG [3ms]
+2024-09-02 13:29:24.291 [info] > git show --textconv :.git/COMMIT_EDITMSG [4ms]
+2024-09-02 13:30:58.109 [info] > git check-ignore -v -z --stdin [4ms]
+2024-09-02 13:30:59.985 [info] > git check-ignore -v -z --stdin [4ms]
+2024-09-02 13:31:05.372 [info] > git show --textconv :.git/COMMIT_EDITMSG [33ms]
+2024-09-02 13:31:05.375 [info] > git ls-files --stage -- /home/reid_butler/python-docs-samples/.git/COMMIT_EDITMSG [5ms]
+2024-09-02 13:31:12.837 [info] > git show --textconv :.git/COMMIT_EDITMSG [31ms]
+2024-09-02 13:31:12.839 [info] > git ls-files --stage -- /home/reid_butler/.git/COMMIT_EDITMSG [6ms]
+2024-09-02 13:31:25.900 [info] > git -c user.useConfigOnly=true commit --quiet [215163ms]
+2024-09-02 13:31:25.900 [info] Aborting commit due to empty commit message.
+2024-09-02 13:31:25.952 [info] No remotes found in the git config file.
+2024-09-02 13:31:25.954 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-02 13:31:25.955 [warning] No such branch: main.
+2024-09-02 13:31:25.955 [info] > git config --get commit.template [30ms]
+2024-09-02 13:31:26.046 [info] > git status -z -uall [65ms]
+2024-09-02 13:31:26.157 [info] > git config --get commit.template [3ms]
+2024-09-02 13:31:26.183 [info] No remotes found in the git config file.
+2024-09-02 13:31:26.707 [info] > git show --textconv :.git/COMMIT_EDITMSG [61ms]
+2024-09-02 13:31:26.707 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [524ms]
+2024-09-02 13:31:26.708 [warning] No such branch: main.
+2024-09-02 13:31:26.811 [info] > git ls-files --stage -- /home/reid_butler/python-docs-samples/.git/COMMIT_EDITMSG [108ms]
+2024-09-02 13:31:27.022 [info] > git status -z -uall [268ms]
+2024-09-02 13:31:27.765 [info] > git ls-files --stage -- /home/reid_butler/python-docs-samples/video/live-stream/cors.json [24ms]
+2024-09-02 13:31:27.790 [info] > git ls-tree -l HEAD -- /home/reid_butler/python-docs-samples/video/live-stream/cors.json [77ms]
+2024-09-02 13:31:27.792 [info] > git -c user.useConfigOnly=true commit --quiet [309003ms]
+2024-09-02 13:31:27.792 [info] Aborting commit due to empty commit message.
+2024-09-02 13:31:27.822 [info] > git cat-file -s 2427f91de2d47cf65ea290ade5d261c3e63790aa [33ms]
+2024-09-02 13:31:27.825 [info] > git config --get commit.template [6ms]
+2024-09-02 13:31:27.856 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-09-02 13:31:27.881 [warning] ENOENT: no such file or directory, open '/home/reid_butler/python-docs-samples/.git/refs/remotes/origin/main'
+2024-09-02 13:31:27.884 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2024-09-02 13:31:27.998 [info] > git status -z -uall [85ms]
+2024-09-02 13:31:27.999 [info] > git show --textconv HEAD:video/live-stream/cors.json [40ms]
+2024-09-02 13:31:28.007 [info] > git show --textconv :video/live-stream/cors.json [13ms]
+2024-09-02 13:31:28.221 [info] > git check-ignore -v -z --stdin [11ms]
+2024-09-02 13:31:32.538 [info] > git show --textconv :.git/COMMIT_EDITMSG [29ms]
+2024-09-02 13:31:32.541 [info] > git ls-files --stage -- /home/reid_butler/python-docs-samples/.git/COMMIT_EDITMSG [5ms]
+2024-09-02 13:31:33.416 [info] > git ls-files --stage -- /home/reid_butler/python-docs-samples/video/live-stream/cors.json [37ms]
+2024-09-02 13:31:33.450 [info] > git ls-tree -l HEAD -- /home/reid_butler/python-docs-samples/video/live-stream/cors.json [105ms]
+2024-09-02 13:31:33.453 [info] > git cat-file -s 2427f91de2d47cf65ea290ade5d261c3e63790aa [4ms]
+2024-09-02 13:31:33.454 [info] > git ls-files --stage -- /home/reid_butler/python-docs-samples/.git/COMMIT_EDITMSG [41ms]
+2024-09-02 13:31:33.616 [info] > git show --textconv HEAD:video/live-stream/cors.json [76ms]
+2024-09-02 13:31:33.617 [info] > git show --textconv :video/live-stream/cors.json [42ms]
+2024-09-02 13:31:33.618 [info] > git show --textconv :.git/COMMIT_EDITMSG [6ms]
+2024-09-02 13:45:43.761 [info] No remotes found in the git config file.
+2024-09-02 13:45:43.764 [info] > git config --get commit.template [38ms]
+2024-09-02 13:45:43.766 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-09-02 13:45:43.766 [warning] No such branch: main.
+2024-09-02 13:45:43.861 [info] > git status -z -uall [64ms]
+2024-09-02 13:45:49.013 [info] No remotes found in the git config file.
+2024-09-02 13:45:49.015 [info] > git config --get commit.template [28ms]
+2024-09-02 13:45:49.016 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-02 13:45:49.017 [warning] No such branch: main.
+2024-09-02 13:45:49.090 [info] > git status -z -uall [49ms]
