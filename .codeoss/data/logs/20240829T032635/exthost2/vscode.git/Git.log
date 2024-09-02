@@ -1,0 +1,47 @@
+2024-08-29 04:44:05.040 [info] Log level: Info
+2024-08-29 04:44:05.040 [info] Validating found git in: "git"
+2024-08-29 04:44:05.040 [info] Using git "2.34.1" from "git"
+2024-08-29 04:44:05.040 [info] > git rev-parse --show-toplevel [553ms]
+2024-08-29 04:44:05.040 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 04:44:05.040 [info] > git rev-parse --show-toplevel [26ms]
+2024-08-29 04:44:05.040 [info] > git rev-parse --git-dir --git-common-dir [4381ms]
+2024-08-29 04:44:05.040 [info] Open repository: /home/reid_butler/python-docs-samples
+2024-08-29 04:44:05.111 [info] > git rev-parse --show-toplevel [32ms]
+2024-08-29 04:44:05.111 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 04:44:05.112 [info] > git config --get commit.template [53ms]
+2024-08-29 04:44:05.336 [info] > git rev-parse --show-toplevel [188ms]
+2024-08-29 04:44:05.337 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 04:44:05.415 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [186ms]
+2024-08-29 04:44:05.475 [warning] ENOENT: no such file or directory, open '/home/reid_butler/python-docs-samples/.git/refs/remotes/origin/main'
+2024-08-29 04:44:05.897 [info] > git rev-parse --show-toplevel [492ms]
+2024-08-29 04:44:05.897 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 04:44:05.991 [info] > git rev-parse refs/remotes/origin/main [509ms]
+2024-08-29 04:44:06.060 [info] > git check-ignore -v -z --stdin [134ms]
+2024-08-29 04:44:06.065 [info] > git rev-parse --show-toplevel [101ms]
+2024-08-29 04:44:06.066 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 04:44:06.112 [info] > git rev-parse --show-toplevel [16ms]
+2024-08-29 04:44:06.112 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 04:44:06.224 [info] > git rev-parse --show-toplevel [79ms]
+2024-08-29 04:44:06.224 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 04:44:06.327 [info] > git rev-parse --show-toplevel [62ms]
+2024-08-29 04:44:06.328 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 04:44:06.478 [info] > git show --textconv :video/transcoder/create_job_from_preset.py [80ms]
+2024-08-29 04:44:06.505 [info] > git ls-files --stage -- /home/reid_butler/python-docs-samples/video/transcoder/create_job_from_preset.py [27ms]
+2024-08-29 04:44:06.579 [info] > git cat-file -s e2758bcb0533de55ae0f7cb15155c384ac92cb94 [9ms]
+2024-08-29 04:44:07.342 [info] > git status -z -uall [1323ms]
+2024-08-29 04:44:07.422 [info] > git merge-base refs/heads/main refs/remotes/origin/main [50ms]
+2024-08-29 04:44:07.457 [info] > git config --get commit.template [35ms]
+2024-08-29 04:44:07.496 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [43ms]
+2024-08-29 04:44:07.617 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [123ms]
+2024-08-29 04:44:07.647 [warning] ENOENT: no such file or directory, open '/home/reid_butler/python-docs-samples/.git/refs/remotes/origin/main'
+2024-08-29 04:44:07.648 [info] > git diff --name-status -z --diff-filter=ADMR 4a9628160438b9117d4d5ae4bffc8e133359b468...refs/remotes/origin/main [116ms]
+2024-08-29 04:44:07.654 [info] > git rev-parse refs/remotes/origin/main [7ms]
+2024-08-29 04:44:09.042 [info] > git status -z -uall [1360ms]

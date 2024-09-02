@@ -1,0 +1,79 @@
+2024-08-30 23:31:23.226 [info] Default formatter is set to null for workspace /home/reid_butler
+2024-08-30 23:31:23.387 [info] Test server listening.
+2024-08-30 23:31:23.389 [info] Python interpreter path: /bin/python
+2024-08-30 23:31:24.045 [info] > pyenv which python
+2024-08-30 23:31:24.045 [info] cwd: .
+2024-08-30 23:31:35.214 [info] Starting Jedi language server for reid_butler.
+2024-08-30 23:32:27.608 [info] Send text to terminal: /bin/python /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:34:24.597 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:34:35.247 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:34:38.757 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:35:09.594 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:35:11.986 [info] Send text to terminal: /bin/python /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:36:01.441 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:36:06.079 [info] Send text to terminal: /bin/python /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:37:46.929 [info] Send text to terminal: /bin/python /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:41:17.500 [info] Send text to terminal: /bin/python /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:43:19.537 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:43:21.172 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:43:25.305 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:43:26.517 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:43:27.935 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:43:29.185 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:43:31.531 [info] Send text to terminal: /bin/python /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:43:45.503 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:43:47.445 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:43:49.475 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:43:50.991 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:43:52.409 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:43:53.611 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:43:55.184 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:43:57.449 [info] Send text to terminal: /bin/python /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:44:22.769 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:45:27.583 [info] Send text to terminal: /bin/python /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:46:30.487 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:46:33.935 [info] Send text to terminal: /bin/python /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:46:52.772 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:47:35.623 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:48:23.588 [info] Send text to terminal: /bin/python /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:48:56.759 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:48:59.509 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:49:09.891 [info] Send text to terminal: /bin/python /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:50:27.574 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:50:31.673 [info] Send text to terminal: /bin/python /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:50:37.536 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-30 23:59:05.385 [info] Send text to terminal: /bin/python /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-31 00:05:15.559 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-31 00:05:25.369 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-31 00:05:55.464 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-31 00:07:17.714 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-31 00:07:20.148 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-31 00:07:22.670 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-31 00:07:23.948 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-31 00:07:27.271 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-31 00:07:29.358 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-31 00:07:32.508 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-31 00:07:36.069 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-31 00:07:38.361 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-31 00:07:40.832 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-31 00:07:41.916 [info] Send text to terminal: /bin/python /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-31 00:08:33.542 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-31 00:08:36.008 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-31 00:08:38.812 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-31 00:08:40.767 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-31 00:08:43.810 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-31 00:08:44.149 [info] > /bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/normalizeSelection.py
+2024-08-31 00:08:44.202 [info] Send text to terminal: /bin/python
+2024-08-31 00:08:46.965 [info] Selected file contains invalid Python or Deprecated Python 2 code
+2024-08-31 00:08:52.411 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-31 00:08:54.539 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-31 00:09:13.652 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-31 00:09:15.107 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-31 00:09:20.873 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-31 00:09:24.131 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-31 00:09:31.897 [info] Send text to terminal: /bin/python /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-31 00:09:46.564 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-31 00:09:50.274 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-31 00:09:54.645 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-31 00:09:59.092 [info] Send text to terminal: /bin/python /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-08-31 00:10:30.003 [info] Send text to terminal: /bin/python /home/reid_butler/python-docs-samples/video/live-stream/create_input.py

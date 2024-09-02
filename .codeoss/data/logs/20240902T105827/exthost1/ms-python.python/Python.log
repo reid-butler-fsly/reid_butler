@@ -1,0 +1,33 @@
+2024-09-02 10:58:36.514 [info] Default formatter is set to null for workspace /home/reid_butler
+2024-09-02 10:58:36.514 [info] Test server listening.
+2024-09-02 10:58:36.514 [info] Python interpreter path: /bin/python
+2024-09-02 10:58:36.934 [info] > pyenv which python
+2024-09-02 10:58:36.934 [info] cwd: .
+2024-09-02 10:58:43.131 [info] Starting Jedi language server for reid_butler.
+2024-09-02 10:59:02.463 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-09-02 10:59:05.344 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-09-02 10:59:08.845 [info] Send text to terminal: /bin/python /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-09-02 11:00:20.621 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/input_test.py
+2024-09-02 11:01:36.264 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/input_test.py
+2024-09-02 11:02:23.706 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/input_test.py
+2024-09-02 11:02:32.169 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/input_test.py
+2024-09-02 11:02:32.287 [info] Send text to terminal: /bin/python /home/reid_butler/python-docs-samples/video/live-stream/input_test.py
+2024-09-02 11:03:02.320 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/input_test.py
+2024-09-02 11:03:11.955 [info] Send text to terminal: /bin/python /home/reid_butler/python-docs-samples/video/live-stream/input_test.py
+2024-09-02 11:04:01.423 [info] Send text to terminal: /bin/python /home/reid_butler/python-docs-samples/video/live-stream/input_test.py
+2024-09-02 11:11:44.597 [info] Send text to terminal: /bin/python /home/reid_butler/python-docs-samples/video/live-stream/input_test.py
+2024-09-02 11:14:57.803 [info] Send text to terminal: /bin/python /home/reid_butler/python-docs-samples/video/live-stream/input_test.py
+2024-09-02 11:15:02.895 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/input_test.py
+2024-09-02 11:15:06.153 [info] Send text to terminal: /bin/python /home/reid_butler/python-docs-samples/video/live-stream/input_test.py
+2024-09-02 11:18:21.297 [info] Send text to terminal: /bin/python /home/reid_butler/python-docs-samples/video/live-stream/input_test.py
+2024-09-02 11:19:00.624 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/input_test.py
+2024-09-02 11:19:03.109 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/input_test.py
+2024-09-02 11:19:04.351 [info] Send text to terminal: /bin/python /home/reid_butler/python-docs-samples/video/live-stream/input_test.py
+2024-09-02 11:19:33.221 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/input_test.py
+2024-09-02 11:20:38.689 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/input_test.py
+2024-09-02 11:20:42.434 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/input_test.py
+2024-09-02 11:20:49.374 [info] Discover tests for workspace name: reid_butler - uri: /home/reid_butler/python-docs-samples/video/live-stream/input_test.py
+2024-09-02 11:22:14.677 [info] Send text to terminal: /bin/python /usr/lib/python3.10/os.py
+2024-09-02 11:22:32.447 [info] Send text to terminal: /bin/python /home/reid_butler/python-docs-samples/video/live-stream/input_test.py
+2024-09-02 11:26:17.932 [info] Send text to terminal: /bin/python /home/reid_butler/python-docs-samples/video/live-stream/create_input.py
+2024-09-02 11:26:33.142 [info] Send text to terminal: /bin/python /home/reid_butler/python-docs-samples/video/live-stream/input_test.py

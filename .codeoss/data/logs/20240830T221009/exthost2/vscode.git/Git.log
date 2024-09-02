@@ -1,0 +1,50 @@
+2024-08-30 22:11:20.341 [info] Log level: Info
+2024-08-30 22:11:20.342 [info] Validating found git in: "git"
+2024-08-30 22:11:20.342 [info] Using git "2.34.1" from "git"
+2024-08-30 22:11:20.342 [info] > git rev-parse --show-toplevel [453ms]
+2024-08-30 22:11:20.342 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-30 22:11:20.342 [info] > git rev-parse --show-toplevel [3312ms]
+2024-08-30 22:11:20.342 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-30 22:11:20.344 [info] > git rev-parse --show-toplevel [33ms]
+2024-08-30 22:11:20.344 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-30 22:11:20.378 [info] > git rev-parse --show-toplevel [8ms]
+2024-08-30 22:11:20.378 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-30 22:11:20.512 [info] > git rev-parse --show-toplevel [93ms]
+2024-08-30 22:11:20.512 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-30 22:11:20.568 [info] > git rev-parse --show-toplevel [28ms]
+2024-08-30 22:11:20.568 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-30 22:11:20.838 [info] > git rev-parse --show-toplevel [183ms]
+2024-08-30 22:11:20.838 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-30 22:11:20.890 [info] > git rev-parse --show-toplevel [31ms]
+2024-08-30 22:11:20.890 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-30 22:11:20.909 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-30 22:11:20.909 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-30 22:11:20.932 [info] > git rev-parse --show-toplevel [6ms]
+2024-08-30 22:11:20.932 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-30 22:11:20.996 [info] > git rev-parse --show-toplevel [10ms]
+2024-08-30 22:11:21.037 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2024-08-30 22:11:21.074 [info] Open repository: /home/reid_butler/python-docs-samples
+2024-08-30 22:11:21.148 [info] > git config --get commit.template [34ms]
+2024-08-30 22:11:21.165 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2024-08-30 22:11:21.189 [warning] ENOENT: no such file or directory, open '/home/reid_butler/python-docs-samples/.git/refs/remotes/origin/main'
+2024-08-30 22:11:21.193 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2024-08-30 22:11:21.720 [info] > git check-ignore -v -z --stdin [12ms]
+2024-08-30 22:11:22.145 [info] > git status -z -uall [924ms]
+2024-08-30 22:11:22.354 [info] > git merge-base refs/heads/main refs/remotes/origin/main [141ms]
+2024-08-30 22:11:22.598 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [172ms]
+2024-08-30 22:11:22.636 [info] > git config --get commit.template [282ms]
+2024-08-30 22:11:22.793 [info] > git diff --name-status -z --diff-filter=ADMR 4a9628160438b9117d4d5ae4bffc8e133359b468...refs/remotes/origin/main [158ms]
+2024-08-30 22:11:22.813 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [68ms]
+2024-08-30 22:11:22.840 [warning] ENOENT: no such file or directory, open '/home/reid_butler/python-docs-samples/.git/refs/remotes/origin/main'
+2024-08-30 22:11:22.902 [info] > git rev-parse refs/remotes/origin/main [62ms]
+2024-08-30 22:11:28.377 [info] > git status -z -uall [5450ms]

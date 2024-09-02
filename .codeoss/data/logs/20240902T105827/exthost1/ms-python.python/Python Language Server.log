@@ -1,0 +1,33 @@
+2024-09-02 10:58:45.001 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3"
+
+2024-09-02 10:58:45.017 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1"
+WARNING:pygls.protocol:Cancel notification for unknown message id "4"
+
+2024-09-02 10:58:59.826 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "13"
+
+2024-09-02 10:59:00.781 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "17"
+
+2024-09-02 11:00:23.129 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "39"
+
+2024-09-02 11:01:27.795 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "45"
+
+2024-09-02 11:02:09.207 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "61"
+
+2024-09-02 11:02:09.384 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "62"
+
+2024-09-02 11:02:56.694 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "78"
+
+2024-09-02 11:17:06.932 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "95"
+
+2024-09-02 11:17:17.871 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "103"
+
+2024-09-02 11:21:09.381 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "153"
+
+2024-09-02 11:21:15.173 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "158"
+
+2024-09-02 11:21:26.763 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "165"
+
+2024-09-02 11:21:42.800 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "180"
+WARNING:pygls.protocol:Cancel notification for unknown message id "179"
+

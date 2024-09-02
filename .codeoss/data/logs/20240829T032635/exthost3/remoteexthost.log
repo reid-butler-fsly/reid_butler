@@ -1,0 +1,7 @@
+2024-08-29 04:45:15.485 [info] Extension host with pid 4239 started
+2024-08-29 04:45:15.504 [info] Lock '/home/reid_butler/.codeoss/data/User/workspaceStorage/6c2144b5/vscode.lock': Lock acquired.
+2024-08-29 04:45:15.912 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2024-08-29 04:45:15.914 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-29 04:45:16.292 [info] Extension host terminating: received terminate message from renderer
+2024-08-29 04:45:16.294 [info] Lock '/home/reid_butler/.codeoss/data/User/workspaceStorage/6c2144b5/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-08-29 04:45:16.296 [info] Extension host with pid 4239 exiting with code 0

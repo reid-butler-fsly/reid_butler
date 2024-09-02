@@ -1,0 +1,50 @@
+2024-08-29 15:39:45.026 [info] Log level: Info
+2024-08-29 15:39:45.026 [info] Validating found git in: "git"
+2024-08-29 15:39:45.026 [info] Using git "2.34.1" from "git"
+2024-08-29 15:39:45.046 [info] > git rev-parse --show-toplevel [20ms]
+2024-08-29 15:39:45.046 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 15:39:49.681 [info] > git rev-parse --show-toplevel [4272ms]
+2024-08-29 15:39:49.958 [info] > git rev-parse --git-dir --git-common-dir [211ms]
+2024-08-29 15:39:49.980 [info] Open repository: /home/reid_butler/python-docs-samples
+2024-08-29 15:39:50.487 [info] > git config --get commit.template [476ms]
+2024-08-29 15:39:50.517 [info] > git rev-parse --show-toplevel [477ms]
+2024-08-29 15:39:50.517 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 15:39:50.614 [info] > git rev-parse --show-toplevel [38ms]
+2024-08-29 15:39:50.614 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 15:39:50.653 [info] > git rev-parse --show-toplevel [6ms]
+2024-08-29 15:39:50.653 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 15:39:50.750 [info] > git rev-parse --show-toplevel [47ms]
+2024-08-29 15:39:50.750 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 15:39:50.819 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [275ms]
+2024-08-29 15:39:50.865 [warning] ENOENT: no such file or directory, open '/home/reid_butler/python-docs-samples/.git/refs/remotes/origin/main'
+2024-08-29 15:39:50.869 [info] > git rev-parse --show-toplevel [56ms]
+2024-08-29 15:39:50.869 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 15:39:50.919 [info] > git rev-parse refs/remotes/origin/main [54ms]
+2024-08-29 15:39:50.986 [info] > git rev-parse --show-toplevel [70ms]
+2024-08-29 15:39:50.986 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 15:39:51.132 [info] > git rev-parse --show-toplevel [90ms]
+2024-08-29 15:39:51.132 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 15:39:51.277 [info] > git check-ignore -v -z --stdin [149ms]
+2024-08-29 15:39:51.280 [info] > git show --textconv :video/transcoder/create_job_from_preset.py [83ms]
+2024-08-29 15:39:51.330 [info] > git ls-files --stage -- /home/reid_butler/python-docs-samples/video/transcoder/create_job_from_preset.py [57ms]
+2024-08-29 15:39:51.373 [info] > git cat-file -s e2758bcb0533de55ae0f7cb15155c384ac92cb94 [9ms]
+2024-08-29 15:39:54.699 [info] > git status -z -uall [3716ms]
+2024-08-29 15:39:54.775 [info] > git merge-base refs/heads/main refs/remotes/origin/main [48ms]
+2024-08-29 15:39:54.894 [info] > git config --get commit.template [119ms]
+2024-08-29 15:39:54.974 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [45ms]
+2024-08-29 15:39:54.975 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [167ms]
+2024-08-29 15:39:55.043 [warning] ENOENT: no such file or directory, open '/home/reid_butler/python-docs-samples/.git/refs/remotes/origin/main'
+2024-08-29 15:39:55.053 [info] > git diff --name-status -z --diff-filter=ADMR 4a9628160438b9117d4d5ae4bffc8e133359b468...refs/remotes/origin/main [45ms]
+2024-08-29 15:39:55.056 [info] > git rev-parse refs/remotes/origin/main [14ms]
+2024-08-29 15:39:56.035 [info] > git status -z -uall [949ms]
+2024-08-29 15:40:57.857 [info] > git rev-parse --show-toplevel [10ms]
+2024-08-29 15:40:57.857 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).

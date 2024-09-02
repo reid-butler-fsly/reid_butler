@@ -1,0 +1,66 @@
+2024-08-29 03:26:43.969 [info] Log level: Info
+2024-08-29 03:26:43.969 [info] Validating found git in: "git"
+2024-08-29 03:26:43.969 [info] Using git "2.34.1" from "git"
+2024-08-29 03:26:43.969 [info] > git rev-parse --show-toplevel [315ms]
+2024-08-29 03:26:43.969 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 03:26:43.969 [info] > git rev-parse --show-toplevel [4ms]
+2024-08-29 03:26:43.969 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 03:26:43.973 [info] > git rev-parse --show-toplevel [4ms]
+2024-08-29 03:26:43.973 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 03:26:43.982 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-29 03:26:43.982 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 03:26:46.455 [info] > git rev-parse --show-toplevel [2465ms]
+2024-08-29 03:26:46.455 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 03:26:46.489 [info] > git rev-parse --show-toplevel [11ms]
+2024-08-29 03:26:46.489 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 03:26:46.518 [info] > git rev-parse --show-toplevel [5ms]
+2024-08-29 03:26:46.601 [info] > git rev-parse --git-dir --git-common-dir [57ms]
+2024-08-29 03:26:46.620 [info] Open repository: /home/reid_butler/python-docs-samples
+2024-08-29 03:26:46.683 [info] > git config --get commit.template [35ms]
+2024-08-29 03:26:47.052 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [372ms]
+2024-08-29 03:26:47.080 [warning] ENOENT: no such file or directory, open '/home/reid_butler/python-docs-samples/.git/refs/remotes/origin/main'
+2024-08-29 03:26:47.194 [info] > git rev-parse refs/remotes/origin/main [115ms]
+2024-08-29 03:26:47.579 [info] > git check-ignore -v -z --stdin [212ms]
+2024-08-29 03:26:47.602 [info] > git rev-parse --show-toplevel [25ms]
+2024-08-29 03:26:47.603 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 03:26:48.403 [info] > git status -z -uall [1181ms]
+2024-08-29 03:26:48.471 [info] > git merge-base refs/heads/main refs/remotes/origin/main [43ms]
+2024-08-29 03:26:48.505 [info] > git config --get commit.template [34ms]
+2024-08-29 03:26:48.600 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [97ms]
+2024-08-29 03:26:48.736 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [205ms]
+2024-08-29 03:26:48.935 [warning] ENOENT: no such file or directory, open '/home/reid_butler/python-docs-samples/.git/refs/remotes/origin/main'
+2024-08-29 03:26:48.952 [info] > git diff --name-status -z --diff-filter=ADMR 4a9628160438b9117d4d5ae4bffc8e133359b468...refs/remotes/origin/main [327ms]
+2024-08-29 03:26:48.963 [info] > git rev-parse refs/remotes/origin/main [29ms]
+2024-08-29 03:26:49.924 [info] > git status -z -uall [921ms]
+2024-08-29 03:27:07.168 [info] > git rev-parse --show-toplevel [21ms]
+2024-08-29 03:27:07.169 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 03:27:09.919 [info] > git rev-parse --show-toplevel [8ms]
+2024-08-29 03:27:09.920 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 03:27:12.129 [info] > git rev-parse --show-toplevel [6ms]
+2024-08-29 03:27:12.130 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 03:27:15.509 [info] > git rev-parse --show-toplevel [6ms]
+2024-08-29 03:27:15.509 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 03:27:38.949 [info] > git check-ignore -v -z --stdin [10ms]
+2024-08-29 03:27:45.403 [info] > git check-ignore -v -z --stdin [4ms]
+2024-08-29 03:27:46.284 [info] > git check-ignore -v -z --stdin [4ms]
+2024-08-29 03:27:54.824 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-29 03:27:54.824 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 03:28:26.063 [info] > git check-ignore -v -z --stdin [10ms]
+2024-08-29 03:29:06.237 [info] > git check-ignore -v -z --stdin [4ms]
+2024-08-29 03:29:07.936 [info] > git check-ignore -v -z --stdin [5ms]
+2024-08-29 03:29:09.163 [info] > git check-ignore -v -z --stdin [5ms]
+2024-08-29 03:29:19.386 [info] > git show --textconv :video/transcoder/create_job_from_preset.py [44ms]
+2024-08-29 03:29:19.387 [info] > git ls-files --stage -- /home/reid_butler/python-docs-samples/video/transcoder/create_job_from_preset.py [26ms]
+2024-08-29 03:29:19.746 [info] > git cat-file -s e2758bcb0533de55ae0f7cb15155c384ac92cb94 [331ms]

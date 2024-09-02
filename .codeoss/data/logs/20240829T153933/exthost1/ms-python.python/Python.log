@@ -1,0 +1,6 @@
+2024-08-29 15:39:45.020 [info] Default formatter is set to null for workspace /home/reid_butler
+2024-08-29 15:39:45.020 [info] Test server listening.
+2024-08-29 15:39:45.021 [info] Python interpreter path: /bin/python
+2024-08-29 15:39:45.439 [info] > pyenv which python
+2024-08-29 15:39:45.439 [info] cwd: .
+2024-08-29 15:39:53.719 [info] Starting Jedi language server for reid_butler.

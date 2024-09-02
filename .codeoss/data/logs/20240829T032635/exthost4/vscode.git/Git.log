@@ -1,0 +1,47 @@
+2024-08-29 05:23:04.442 [info] Log level: Info
+2024-08-29 05:23:04.442 [info] Validating found git in: "git"
+2024-08-29 05:23:04.442 [info] Using git "2.34.1" from "git"
+2024-08-29 05:23:04.442 [info] > git rev-parse --show-toplevel [34ms]
+2024-08-29 05:23:04.442 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 05:23:08.317 [info] > git rev-parse --show-toplevel [3945ms]
+2024-08-29 05:23:08.419 [info] > git rev-parse --git-dir --git-common-dir [43ms]
+2024-08-29 05:23:08.439 [info] Open repository: /home/reid_butler/python-docs-samples
+2024-08-29 05:23:08.766 [info] > git config --get commit.template [273ms]
+2024-08-29 05:23:08.825 [info] > git rev-parse --show-toplevel [293ms]
+2024-08-29 05:23:08.825 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 05:23:09.251 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [355ms]
+2024-08-29 05:23:09.338 [warning] ENOENT: no such file or directory, open '/home/reid_butler/python-docs-samples/.git/refs/remotes/origin/main'
+2024-08-29 05:23:09.347 [info] > git rev-parse --show-toplevel [414ms]
+2024-08-29 05:23:09.347 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 05:23:09.423 [info] > git check-ignore -v -z --stdin [137ms]
+2024-08-29 05:23:09.426 [info] > git rev-parse refs/remotes/origin/main [88ms]
+2024-08-29 05:23:09.463 [info] > git rev-parse --show-toplevel [82ms]
+2024-08-29 05:23:09.463 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 05:23:09.560 [info] > git rev-parse --show-toplevel [33ms]
+2024-08-29 05:23:09.560 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 05:23:09.755 [info] > git rev-parse --show-toplevel [77ms]
+2024-08-29 05:23:09.756 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 05:23:09.844 [info] > git rev-parse --show-toplevel [10ms]
+2024-08-29 05:23:09.844 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 05:23:09.942 [info] > git rev-parse --show-toplevel [5ms]
+2024-08-29 05:23:09.942 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-29 05:23:10.160 [info] > git show --textconv :video/transcoder/create_job_from_preset.py [112ms]
+2024-08-29 05:23:10.172 [info] > git ls-files --stage -- /home/reid_butler/python-docs-samples/video/transcoder/create_job_from_preset.py [15ms]
+2024-08-29 05:23:10.417 [info] > git cat-file -s e2758bcb0533de55ae0f7cb15155c384ac92cb94 [162ms]
+2024-08-29 05:23:11.199 [info] > git status -z -uall [1739ms]
+2024-08-29 05:23:11.315 [info] > git merge-base refs/heads/main refs/remotes/origin/main [83ms]
+2024-08-29 05:23:11.544 [info] > git config --get commit.template [263ms]
+2024-08-29 05:23:11.549 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [168ms]
+2024-08-29 05:23:11.710 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2024-08-29 05:23:11.711 [info] > git diff --name-status -z --diff-filter=ADMR 4a9628160438b9117d4d5ae4bffc8e133359b468...refs/remotes/origin/main [90ms]
+2024-08-29 05:23:11.781 [warning] ENOENT: no such file or directory, open '/home/reid_butler/python-docs-samples/.git/refs/remotes/origin/main'
+2024-08-29 05:23:11.805 [info] > git rev-parse refs/remotes/origin/main [24ms]
+2024-08-29 05:23:14.026 [info] > git status -z -uall [2147ms]

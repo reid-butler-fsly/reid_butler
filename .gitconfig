@@ -1,0 +1,7 @@
+[user]
+	name = Reid Butler
+	email = reid.butler@fastly.com
+[core]
+	editor = emacs
+[init]
+	defaultBranch = main

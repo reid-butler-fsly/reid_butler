@@ -1,0 +1,485 @@
+I0830 23:31:46.879174    1878 serve.go:43] cloudcode_cli (Jul  2 2024 12:01:58 -0700, cl:648796832 baseline:648796263)
+I0830 23:31:46.882844    1878 serve.go:44] Command line: ["/home/reid_butler/.cache/cloud-code/cloudcode_cli/cloudcode_cli/linux_amd64/cloudcode_cli" "duet" "-logtostderr"]
+I0830 23:31:46.900058    1878 life_cycle.go:135] Initializing. Architecture: "amd64", Operating system: "linux"
+I0830 23:31:46.984590    1878 configuration.go:171] product updateChannel will be used
+I0830 23:31:46.984634    1878 configuration.go:568] language thresholds: map[]
+I0830 23:31:46.984656    1878 configuration.go:526] dataFileExtensions array: [.csv .tsv .jsonl]
+I0830 23:31:46.984682    1878 configuration.go:768] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc001089489 StopSequences:map[] DataFilePromptLines:0}
+I0830 23:31:46.984725    1878 configuration.go:768] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc0010894d9 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I0830 23:31:46.984922    1878 configuration.go:251] Configured settings for atlasOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I0830 23:31:46.984940    1878 configuration.go:263] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:50000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 deletionCompletion:true otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0} chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:false enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288}
+I0830 23:31:46.984980    1878 configuration.go:265] Configured settings for canCancelRequests: true
+I0830 23:31:46.984994    1878 configuration.go:267] Configured settings for contextPromptOpts: &{Endpoint:}
+I0830 23:31:47.027122    1878 handler.go:142] cancel was requested for: 1, needs to be canceled: false
+I0830 23:31:47.027141    1878 handler.go:146] cancel requested for 1 but not found
+[Error - 11:31:50 PM] Server process exited with code 0.
+I0830 23:31:51.116461    1898 serve.go:43] cloudcode_cli (Jul  2 2024 12:01:58 -0700, cl:648796832 baseline:648796263)
+I0830 23:31:51.116514    1898 serve.go:44] Command line: ["/home/reid_butler/.cache/cloud-code/cloudcode_cli/cloudcode_cli/linux_amd64/cloudcode_cli" "duet" "-logtostderr"]
+I0830 23:31:51.118153    1898 life_cycle.go:135] Initializing. Architecture: "amd64", Operating system: "linux"
+I0830 23:31:51.211234    1898 configuration.go:171] product updateChannel will be used
+I0830 23:31:51.211280    1898 configuration.go:568] language thresholds: map[]
+I0830 23:31:51.211309    1898 configuration.go:526] dataFileExtensions array: [.csv .tsv .jsonl]
+I0830 23:31:51.211335    1898 configuration.go:768] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc000af3a49 StopSequences:map[] DataFilePromptLines:0}
+I0830 23:31:51.211377    1898 configuration.go:768] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc000af3ad9 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I0830 23:31:51.211618    1898 configuration.go:251] Configured settings for atlasOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I0830 23:31:51.211636    1898 configuration.go:263] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:50000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 deletionCompletion:true otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0} chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:false enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288}
+I0830 23:31:51.211674    1898 configuration.go:265] Configured settings for canCancelRequests: true
+I0830 23:31:51.211688    1898 configuration.go:267] Configured settings for contextPromptOpts: &{Endpoint:}
+I0830 23:31:51.266220    1898 handler.go:142] cancel was requested for: 1, needs to be canceled: false
+I0830 23:31:51.266241    1898 handler.go:146] cancel requested for 1 but not found
+I0830 23:31:54.773805    1898 handler.go:142] cancel was requested for: 6, needs to be canceled: false
+I0830 23:31:54.773826    1898 handler.go:146] cancel requested for 6 but not found
+[Error - 11:31:55 PM] Server process exited with code 0.
+I0830 23:31:55.388009    1918 serve.go:43] cloudcode_cli (Jul  2 2024 12:01:58 -0700, cl:648796832 baseline:648796263)
+I0830 23:31:55.388092    1918 serve.go:44] Command line: ["/home/reid_butler/.cache/cloud-code/cloudcode_cli/cloudcode_cli/linux_amd64/cloudcode_cli" "duet" "-logtostderr"]
+I0830 23:31:55.390220    1918 life_cycle.go:135] Initializing. Architecture: "amd64", Operating system: "linux"
+I0830 23:31:55.893121    1918 handler.go:142] cancel was requested for: 1, needs to be canceled: true
+I0830 23:31:55.903830    1918 configuration.go:171] product updateChannel will be used
+I0830 23:31:55.903876    1918 configuration.go:568] language thresholds: map[]
+I0830 23:31:55.903898    1918 configuration.go:526] dataFileExtensions array: [.csv .tsv .jsonl]
+I0830 23:31:55.903922    1918 configuration.go:768] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc0011650f9 StopSequences:map[] DataFilePromptLines:0}
+I0830 23:31:55.903962    1918 configuration.go:768] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc001165149 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I0830 23:31:55.904172    1918 configuration.go:251] Configured settings for atlasOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I0830 23:31:55.904202    1918 configuration.go:263] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:50000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 deletionCompletion:true otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0} chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:false enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288}
+I0830 23:31:55.904237    1918 configuration.go:265] Configured settings for canCancelRequests: true
+I0830 23:31:55.904249    1918 configuration.go:267] Configured settings for contextPromptOpts: &{Endpoint:}
+I0830 23:31:55.910454    1918 handler.go:129] req #1 skipped: context canceled
+I0830 23:31:59.092487    1918 handler.go:142] cancel was requested for: 6, needs to be canceled: false
+I0830 23:31:59.092509    1918 handler.go:146] cancel requested for 6 but not found
+I0830 23:31:59.185823    1918 handler.go:142] cancel was requested for: 7, needs to be canceled: false
+I0830 23:31:59.185841    1918 handler.go:146] cancel requested for 7 but not found
+I0830 23:34:00.704952    1918 handler.go:142] cancel was requested for: 28, needs to be canceled: false
+I0830 23:34:00.704974    1918 handler.go:146] cancel requested for 28 but not found
+W0830 23:34:19.610271    1918 document.go:231] Error computing chars added only: getting byte offset for end of change range: invalid column number
+Completion Provider - completion # 0 - Typed over previous completion
+Completion Provider - completion # 0 - New completion requested from language client at position {"line":66,"character":12}, triggerKind=1
+Completion Provider - completion # 0 - Completion result obtained from language client
+Completion Provider - completion # 0 - Typed over previous completion
+Completion Provider - completion # 1 - New completion requested from language client at position {"line":66,"character":13}, triggerKind=1
+Completion Provider - completion # 1 - Completion result obtained from language client
+Completion Provider - completion # 1 - Typed over previous completion
+Completion Provider - completion # 2 - New completion requested from language client at position {"line":66,"character":14}, triggerKind=1
+Completion Provider - completion # 2 - Completion result obtained from language client
+Completion Provider - completion # 2 - Typed over previous completion
+Completion Provider - completion # 3 - New completion requested from language client at position {"line":66,"character":15}, triggerKind=1
+Completion Provider - completion # 3 - Completion result obtained from language client
+Completion Provider - completion # 3 - Typed over previous completion
+Completion Provider - completion # 4 - New completion requested from language client at position {"line":66,"character":16}, triggerKind=1
+Completion Provider - completion # 4 - Completion result obtained from language client
+I0830 23:34:20.853801    1918 handler.go:142] cancel was requested for: 49, needs to be canceled: false
+I0830 23:34:20.853820    1918 handler.go:146] cancel requested for 49 but not found
+Completion Provider - completion # 4 - Typed over previous completion
+Completion Provider - completion # 5 - New completion requested from language client at position {"line":66,"character":17}, triggerKind=1
+Completion Provider - completion # 5 - Completion result obtained from language client
+Completion Provider - completion # 5 - Typed over previous completion
+Completion Provider - completion # 6 - New completion requested from language client at position {"line":66,"character":18}, triggerKind=1
+Completion Provider - completion # 6 - Completion result obtained from language client
+Completion Provider - completion # 6 - Typed over previous completion
+Completion Provider - completion # 7 - New completion requested from language client at position {"line":66,"character":19}, triggerKind=1
+Completion Provider - completion # 7 - Completion result obtained from language client
+Completion Provider - completion # 7 - Typed over previous completion
+Completion Provider - completion # 8 - New completion requested from language client at position {"line":66,"character":20}, triggerKind=1
+Completion Provider - completion # 8 - Completion result obtained from language client
+Completion Provider - completion # 8 - Typed over previous completion
+Completion Provider - completion # 9 - New completion requested from language client at position {"line":66,"character":21}, triggerKind=1
+Completion Provider - completion # 9 - Completion result obtained from language client
+Completion Provider - completion # 9 - Typed over previous completion
+Completion Provider - completion # 10 - New completion requested from language client at position {"line":66,"character":22}, triggerKind=1
+Completion Provider - completion # 10 - Completion result obtained from language client
+Completion Provider - completion # 10 - Typed over previous completion
+Completion Provider - completion # 11 - New completion requested from language client at position {"line":66,"character":23}, triggerKind=1
+Completion Provider - completion # 11 - Completion result obtained from language client
+W0830 23:34:33.707206    1918 document.go:231] Error computing chars added only: getting byte offset for end of change range: invalid column number
+Completion Provider - completion # 11 - Typed over previous completion
+Completion Provider - completion # 12 - New completion requested from language client at position {"line":61,"character":12}, triggerKind=1
+Completion Provider - completion # 12 - Completion result obtained from language client
+Completion Provider - completion # 12 - Typed over previous completion
+Completion Provider - completion # 13 - New completion requested from language client at position {"line":61,"character":13}, triggerKind=1
+Completion Provider - completion # 13 - Completion result obtained from language client
+Completion Provider - completion # 13 - Typed over previous completion
+Completion Provider - completion # 14 - New completion requested from language client at position {"line":61,"character":14}, triggerKind=1
+Completion Provider - completion # 14 - Completion result obtained from language client
+Completion Provider - completion # 14 - Typed over previous completion
+Completion Provider - completion # 15 - New completion requested from language client at position {"line":61,"character":15}, triggerKind=1
+Completion Provider - completion # 15 - Completion result obtained from language client
+Completion Provider - completion # 15 - Typed over previous completion
+Completion Provider - completion # 16 - New completion requested from language client at position {"line":61,"character":16}, triggerKind=1
+Completion Provider - completion # 16 - Completion result obtained from language client
+Completion Provider - completion # 16 - Typed over previous completion
+Completion Provider - completion # 17 - New completion requested from language client at position {"line":61,"character":17}, triggerKind=1
+Completion Provider - completion # 17 - Completion result obtained from language client
+Completion Provider - completion # 17 - Typed over previous completion
+Completion Provider - completion # 18 - New completion requested from language client at position {"line":61,"character":18}, triggerKind=1
+Completion Provider - completion # 18 - Completion result obtained from language client
+Completion Provider - completion # 18 - Typed over previous completion
+Completion Provider - completion # 19 - New completion requested from language client at position {"line":61,"character":19}, triggerKind=1
+Completion Provider - completion # 19 - Completion result obtained from language client
+I0830 23:34:55.911843    1918 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+I0830 23:35:55.911206    1918 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+Completion Provider - completion # 19 - Typed over previous completion
+Completion Provider - completion # 20 - New completion requested from language client at position {"line":72,"character":14}, triggerKind=1
+Completion Provider - completion # 20 - Completion result obtained from language client
+Completion Provider - completion # 20 - Typed over previous completion
+Completion Provider - completion # 21 - New completion requested from language client at position {"line":72,"character":14}, triggerKind=1
+Completion Provider - completion # 21 - Completion result obtained from language client
+I0830 23:36:55.911808    1918 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+I0830 23:37:04.420214    1918 handler.go:142] cancel was requested for: 136, needs to be canceled: false
+I0830 23:37:04.420233    1918 handler.go:146] cancel requested for 136 but not found
+I0830 23:41:43.211446    1918 handler.go:142] cancel was requested for: 167, needs to be canceled: false
+I0830 23:41:43.211477    1918 handler.go:146] cancel requested for 167 but not found
+I0830 23:41:55.911232    1918 life_cycle.go:226] codeReportBasicEvery: recomputing codereportbasic metric
+Completion Provider - completion # 21 - Typed over previous completion
+Completion Provider - completion # 22 - New completion requested from language client at position {"line":72,"character":33}, triggerKind=1
+Completion Provider - completion # 22 - Completion result obtained from language client
+Completion Provider - completion # 22 - Typed over previous completion
+Completion Provider - completion # 23 - New completion requested from language client at position {"line":72,"character":33}, triggerKind=1
+Completion Provider - completion # 23 - Completion result obtained from language client
+Completion Provider - completion # 23 - Typed over previous completion
+Completion Provider - completion # 24 - New completion requested from language client at position {"line":72,"character":14}, triggerKind=1
+Completion Provider - completion # 24 - Completion result obtained from language client
+Completion Provider - completion # 24 - Typed over previous completion
+Completion Provider - completion # 25 - New completion requested from language client at position {"line":72,"character":14}, triggerKind=1
+Completion Provider - completion # 25 - Completion result obtained from language client
+Completion Provider - completion # 25 - Typed over previous completion
+Completion Provider - completion # 26 - New completion requested from language client at position {"line":73,"character":14}, triggerKind=1
+Completion Provider - completion # 26 - Completion result obtained from language client
+Completion Provider - completion # 26 - Typed over previous completion
+Completion Provider - completion # 27 - New completion requested from language client at position {"line":73,"character":14}, triggerKind=1
+Completion Provider - completion # 27 - Completion result obtained from language client
+I0830 23:43:24.116191    1918 handler.go:142] cancel was requested for: 200, needs to be canceled: false
+I0830 23:43:24.116211    1918 handler.go:146] cancel requested for 200 but not found
+Completion Provider - completion # 27 - Typed over previous completion
+Completion Provider - completion # 28 - New completion requested from language client at position {"line":73,"character":23}, triggerKind=1
+Completion Provider - completion # 28 - Completion result obtained from language client
+Completion Provider - completion # 28 - Typed over previous completion
+Completion Provider - completion # 29 - New completion requested from language client at position {"line":74,"character":14}, triggerKind=1
+Completion Provider - completion # 29 - Completion result obtained from language client
+Completion Provider - completion # 29 - Typed over previous completion
+Completion Provider - completion # 30 - New completion requested from language client at position {"line":74,"character":14}, triggerKind=1
+Completion Provider - completion # 30 - Completion result obtained from language client
+Completion Provider - completion # 30 - Typed over previous completion
+Completion Provider - completion # 31 - New completion requested from language client at position {"line":74,"character":27}, triggerKind=1
+Completion Provider - completion # 31 - Completion result obtained from language client
+I0830 23:43:39.001338    1918 handler.go:142] cancel was requested for: 216, needs to be canceled: false
+I0830 23:43:39.001362    1918 handler.go:146] cancel requested for 216 but not found
+Completion Provider - completion # 31 - Typed over previous completion
+Completion Provider - completion # 32 - New completion requested from language client at position {"line":72,"character":33}, triggerKind=1
+Completion Provider - completion # 32 - Completion result obtained from language client
+Completion Provider - completion # 32 - Typed over previous completion
+Completion Provider - completion # 33 - New completion requested from language client at position {"line":72,"character":33}, triggerKind=1
+Completion Provider - completion # 33 - Completion result obtained from language client
+I0830 23:43:47.936551    1918 handler.go:142] cancel was requested for: 228, needs to be canceled: false
+I0830 23:43:47.936571    1918 handler.go:146] cancel requested for 228 but not found
+Completion Provider - completion # 33 - Typed over previous completion
+Completion Provider - completion # 34 - New completion requested from language client at position {"line":72,"character":14}, triggerKind=1
+Completion Provider - completion # 34 - Completion result obtained from language client
+Completion Provider - completion # 34 - Typed over previous completion
+Completion Provider - completion # 35 - New completion requested from language client at position {"line":72,"character":14}, triggerKind=1
+Completion Provider - completion # 35 - Completion result obtained from language client
+Completion Provider - completion # 35 - Typed over previous completion
+Completion Provider - completion # 36 - New completion requested from language client at position {"line":73,"character":14}, triggerKind=1
+Completion Provider - completion # 36 - Completion result obtained from language client
+Completion Provider - completion # 36 - Typed over previous completion
+Completion Provider - completion # 37 - New completion requested from language client at position {"line":73,"character":14}, triggerKind=1
+Completion Provider - completion # 37 - Completion result obtained from language client
+Completion Provider - completion # 37 - Typed over previous completion
+Completion Provider - completion # 38 - New completion requested from language client at position {"line":73,"character":14}, triggerKind=1
+Completion Provider - completion # 38 - Completion result obtained from language client
+Completion Provider - completion # 38 - Typed over previous completion
+Completion Provider - completion # 39 - New completion requested from language client at position {"line":73,"character":23}, triggerKind=1
+Completion Provider - completion # 39 - Completion result obtained from language client
+Completion Provider - completion # 39 - Typed over previous completion
+Completion Provider - completion # 40 - New completion requested from language client at position {"line":74,"character":26}, triggerKind=1
+Completion Provider - completion # 40 - Completion result obtained from language client
+Completion Provider - completion # 40 - Typed over previous completion
+Completion Provider - completion # 41 - New completion requested from language client at position {"line":74,"character":26}, triggerKind=1
+Completion Provider - completion # 41 - Completion result obtained from language client
+Completion Provider - completion # 41 - Typed over previous completion
+Completion Provider - completion # 42 - New completion requested from language client at position {"line":74,"character":14}, triggerKind=1
+Completion Provider - completion # 42 - Completion result obtained from language client
+Completion Provider - completion # 42 - Typed over previous completion
+Completion Provider - completion # 43 - New completion requested from language client at position {"line":74,"character":14}, triggerKind=1
+Completion Provider - completion # 43 - Completion result obtained from language client
+I0830 23:43:55.911177    1918 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+I0830 23:44:55.911771    1918 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+Completion Provider - completion # 43 - Typed over previous completion
+Completion Provider - completion # 44 - New completion requested from language client at position {"line":56,"character":0}, triggerKind=1
+Completion Provider - completion # 44 - Completion result obtained from language client
+I0830 23:46:55.912119    1918 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+I0830 23:48:50.488897    1918 handler.go:142] cancel was requested for: 335, needs to be canceled: false
+I0830 23:48:50.488920    1918 handler.go:146] cancel requested for 335 but not found
+Completion Provider - completion # 0 - Typed over previous completion
+Completion Provider - completion # 45 - New completion requested from language client at position {"line":61,"character":12}, triggerKind=1
+Completion Provider - completion # 45 - Completion result obtained from language client
+W0830 23:48:52.733494    1918 document.go:231] Error computing chars added only: getting byte offset for end of change range: invalid column number
+Completion Provider - completion # 45 - Typed over previous completion
+Completion Provider - completion # 46 - New completion requested from language client at position {"line":61,"character":13}, triggerKind=1
+Completion Provider - completion # 46 - Completion result obtained from language client
+Completion Provider - completion # 46 - Typed over previous completion
+Completion Provider - completion # 47 - New completion requested from language client at position {"line":61,"character":14}, triggerKind=1
+Completion Provider - completion # 47 - Completion result obtained from language client
+Completion Provider - completion # 47 - Typed over previous completion
+Completion Provider - completion # 48 - New completion requested from language client at position {"line":61,"character":15}, triggerKind=1
+Completion Provider - completion # 48 - Completion result obtained from language client
+Completion Provider - completion # 48 - Typed over previous completion
+Completion Provider - completion # 49 - New completion requested from language client at position {"line":61,"character":16}, triggerKind=1
+Completion Provider - completion # 49 - Completion result obtained from language client
+Completion Provider - completion # 49 - Typed over previous completion
+Completion Provider - completion # 50 - New completion requested from language client at position {"line":61,"character":17}, triggerKind=1
+Completion Provider - completion # 50 - Completion result obtained from language client
+Completion Provider - completion # 50 - Typed over previous completion
+Completion Provider - completion # 51 - New completion requested from language client at position {"line":61,"character":18}, triggerKind=1
+Completion Provider - completion # 51 - Completion result obtained from language client
+Completion Provider - completion # 51 - Typed over previous completion
+Completion Provider - completion # 52 - New completion requested from language client at position {"line":61,"character":20}, triggerKind=1
+Completion Provider - completion # 52 - Completion result obtained from language client
+I0830 23:48:55.911425    1918 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+Completion Provider - completion # 52 - Typed over previous completion
+Completion Provider - completion # 53 - New completion requested from language client at position {"line":61,"character":19}, triggerKind=1
+Completion Provider - completion # 53 - Completion result obtained from language client
+Completion Provider - completion # 53 - Typed over previous completion
+Completion Provider - completion # 54 - New completion requested from language client at position {"line":61,"character":18}, triggerKind=1
+Completion Provider - completion # 54 - Completion result obtained from language client
+Completion Provider - completion # 54 - Typed over previous completion
+Completion Provider - completion # 55 - New completion requested from language client at position {"line":61,"character":19}, triggerKind=1
+Completion Provider - completion # 55 - Completion result obtained from language client
+I0830 23:49:55.911174    1918 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+I0830 23:50:17.139539    1918 handler.go:142] cancel was requested for: 367, needs to be canceled: false
+I0830 23:50:17.139562    1918 handler.go:146] cancel requested for 367 but not found
+I0830 23:51:55.911177    1918 life_cycle.go:226] codeReportBasicEvery: recomputing codereportbasic metric
+I0831 00:02:02.316626    1918 handler.go:142] cancel was requested for: 461, needs to be canceled: false
+I0831 00:02:02.316649    1918 handler.go:146] cancel requested for 461 but not found
+I0831 00:04:43.805337    1918 handler.go:142] cancel was requested for: 518, needs to be canceled: false
+I0831 00:04:43.805356    1918 handler.go:146] cancel requested for 518 but not found
+Completion Provider - completion # 55 - Typed over previous completion
+Completion Provider - completion # 56 - New completion requested from language client at position {"line":59,"character":28}, triggerKind=1
+Completion Provider - completion # 56 - Completion result obtained from language client
+Completion Provider - completion # 56 - Typed over previous completion
+Completion Provider - completion # 57 - New completion requested from language client at position {"line":59,"character":29}, triggerKind=1
+Completion Provider - completion # 57 - Completion result obtained from language client
+Completion Provider - completion # 57 - Typed over previous completion
+Completion Provider - completion # 58 - New completion requested from language client at position {"line":59,"character":30}, triggerKind=1
+Completion Provider - completion # 58 - Completion result obtained from language client
+Completion Provider - completion # 58 - Typed over previous completion
+Completion Provider - completion # 59 - New completion requested from language client at position {"line":59,"character":31}, triggerKind=1
+Completion Provider - completion # 59 - Completion result obtained from language client
+Completion Provider - completion # 59 - Typed over previous completion
+Completion Provider - completion # 60 - New completion requested from language client at position {"line":59,"character":32}, triggerKind=1
+Completion Provider - completion # 60 - Completion result obtained from language client
+Completion Provider - completion # 60 - Typed over previous completion
+Completion Provider - completion # 61 - New completion requested from language client at position {"line":59,"character":33}, triggerKind=1
+Completion Provider - completion # 61 - Completion result obtained from language client
+Completion Provider - completion # 61 - Typed over previous completion
+Completion Provider - completion # 62 - New completion requested from language client at position {"line":59,"character":34}, triggerKind=1
+Completion Provider - completion # 62 - Completion result obtained from language client
+Completion Provider - completion # 62 - Typed over previous completion
+Completion Provider - completion # 63 - New completion requested from language client at position {"line":59,"character":35}, triggerKind=1
+Completion Provider - completion # 63 - Completion result obtained from language client
+Completion Provider - completion # 63 - Typed over previous completion
+Completion Provider - completion # 64 - New completion requested from language client at position {"line":59,"character":36}, triggerKind=1
+Completion Provider - completion # 64 - Completion result obtained from language client
+Completion Provider - completion # 64 - Typed over previous completion
+Completion Provider - completion # 65 - New completion requested from language client at position {"line":59,"character":37}, triggerKind=1
+Completion Provider - completion # 65 - Completion result obtained from language client
+W0831 00:05:20.650347    1918 document.go:231] Error computing chars added only: getting byte offset for end of change range: invalid column number
+Completion Provider - completion # 65 - Typed over previous completion
+Completion Provider - completion # 66 - New completion requested from language client at position {"line":61,"character":12}, triggerKind=1
+Completion Provider - completion # 66 - Completion result obtained from language client
+Completion Provider - completion # 66 - Typed over previous completion
+Completion Provider - completion # 67 - New completion requested from language client at position {"line":61,"character":13}, triggerKind=1
+Completion Provider - completion # 67 - Completion result obtained from language client
+Completion Provider - completion # 67 - Typed over previous completion
+Completion Provider - completion # 68 - New completion requested from language client at position {"line":61,"character":14}, triggerKind=1
+Completion Provider - completion # 68 - Completion result obtained from language client
+Completion Provider - completion # 68 - Typed over previous completion
+Completion Provider - completion # 69 - New completion requested from language client at position {"line":61,"character":16}, triggerKind=1
+Completion Provider - completion # 69 - Completion result obtained from language client
+Completion Provider - completion # 69 - Typed over previous completion
+Completion Provider - completion # 70 - New completion requested from language client at position {"line":61,"character":15}, triggerKind=1
+Completion Provider - completion # 70 - Completion result obtained from language client
+Completion Provider - completion # 70 - Typed over previous completion
+Completion Provider - completion # 71 - New completion requested from language client at position {"line":61,"character":16}, triggerKind=1
+Completion Provider - completion # 71 - Completion result obtained from language client
+Completion Provider - completion # 71 - Typed over previous completion
+Completion Provider - completion # 72 - New completion requested from language client at position {"line":61,"character":15}, triggerKind=1
+Completion Provider - completion # 72 - Completion result obtained from language client
+Completion Provider - completion # 72 - Typed over previous completion
+Completion Provider - completion # 73 - New completion requested from language client at position {"line":61,"character":16}, triggerKind=1
+Completion Provider - completion # 73 - Completion result obtained from language client
+Completion Provider - completion # 73 - Typed over previous completion
+Completion Provider - completion # 74 - New completion requested from language client at position {"line":61,"character":17}, triggerKind=1
+Completion Provider - completion # 74 - Completion result obtained from language client
+Completion Provider - completion # 74 - Typed over previous completion
+Completion Provider - completion # 75 - New completion requested from language client at position {"line":61,"character":18}, triggerKind=1
+Completion Provider - completion # 75 - Completion result obtained from language client
+Completion Provider - completion # 75 - Typed over previous completion
+Completion Provider - completion # 76 - New completion requested from language client at position {"line":61,"character":19}, triggerKind=1
+Completion Provider - completion # 76 - Completion result obtained from language client
+W0831 00:05:51.005710    1918 document.go:231] Error computing chars added only: getting byte offset for end of change range: invalid column number
+Completion Provider - completion # 76 - Typed over previous completion
+Completion Provider - completion # 77 - New completion requested from language client at position {"line":66,"character":12}, triggerKind=1
+Completion Provider - completion # 77 - Completion result obtained from language client
+Completion Provider - completion # 77 - Typed over previous completion
+Completion Provider - completion # 78 - New completion requested from language client at position {"line":66,"character":13}, triggerKind=1
+Completion Provider - completion # 78 - Completion result obtained from language client
+Completion Provider - completion # 78 - Typed over previous completion
+Completion Provider - completion # 79 - New completion requested from language client at position {"line":66,"character":14}, triggerKind=1
+Completion Provider - completion # 79 - Completion result obtained from language client
+Completion Provider - completion # 79 - Typed over previous completion
+Completion Provider - completion # 80 - New completion requested from language client at position {"line":66,"character":15}, triggerKind=1
+Completion Provider - completion # 80 - Completion result obtained from language client
+Completion Provider - completion # 80 - Typed over previous completion
+Completion Provider - completion # 81 - New completion requested from language client at position {"line":66,"character":16}, triggerKind=1
+Completion Provider - completion # 81 - Completion result obtained from language client
+Completion Provider - completion # 81 - Typed over previous completion
+Completion Provider - completion # 82 - New completion requested from language client at position {"line":66,"character":17}, triggerKind=1
+Completion Provider - completion # 82 - Completion result obtained from language client
+Completion Provider - completion # 82 - Typed over previous completion
+Completion Provider - completion # 83 - New completion requested from language client at position {"line":66,"character":18}, triggerKind=1
+Completion Provider - completion # 83 - Completion result obtained from language client
+Completion Provider - completion # 83 - Typed over previous completion
+Completion Provider - completion # 84 - New completion requested from language client at position {"line":66,"character":19}, triggerKind=1
+Completion Provider - completion # 84 - Completion result obtained from language client
+I0831 00:05:55.911534    1918 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+I0831 00:07:13.741825    1918 handler.go:142] cancel was requested for: 588, needs to be canceled: false
+I0831 00:07:13.741849    1918 handler.go:146] cancel requested for 588 but not found
+Completion Provider - completion # 84 - Typed over previous completion
+Completion Provider - completion # 85 - New completion requested from language client at position {"line":72,"character":12}, triggerKind=1
+Completion Provider - completion # 85 - Completion result obtained from language client
+Completion Provider - completion # 85 - Typed over previous completion
+Completion Provider - completion # 86 - New completion requested from language client at position {"line":72,"character":11}, triggerKind=1
+Completion Provider - completion # 86 - Completion result obtained from language client
+Completion Provider - completion # 86 - Typed over previous completion
+Completion Provider - completion # 87 - New completion requested from language client at position {"line":72,"character":10}, triggerKind=1
+Completion Provider - completion # 87 - Completion result obtained from language client
+Completion Provider - completion # 87 - Typed over previous completion
+Completion Provider - completion # 88 - New completion requested from language client at position {"line":72,"character":9}, triggerKind=1
+Completion Provider - completion # 88 - Completion result obtained from language client
+Completion Provider - completion # 88 - Typed over previous completion
+Completion Provider - completion # 89 - New completion requested from language client at position {"line":72,"character":8}, triggerKind=1
+Completion Provider - completion # 89 - Completion result obtained from language client
+Completion Provider - completion # 89 - Typed over previous completion
+Completion Provider - completion # 90 - New completion requested from language client at position {"line":73,"character":12}, triggerKind=1
+Completion Provider - completion # 90 - Completion result obtained from language client
+I0831 00:07:17.934716    1918 handler.go:142] cancel was requested for: 596, needs to be canceled: false
+I0831 00:07:17.934736    1918 handler.go:146] cancel requested for 596 but not found
+Completion Provider - completion # 90 - Typed over previous completion
+Completion Provider - completion # 91 - New completion requested from language client at position {"line":73,"character":11}, triggerKind=1
+Completion Provider - completion # 91 - Completion result obtained from language client
+Completion Provider - completion # 91 - Typed over previous completion
+Completion Provider - completion # 92 - New completion requested from language client at position {"line":73,"character":10}, triggerKind=1
+Completion Provider - completion # 92 - Completion result obtained from language client
+Completion Provider - completion # 92 - Typed over previous completion
+Completion Provider - completion # 93 - New completion requested from language client at position {"line":73,"character":9}, triggerKind=1
+Completion Provider - completion # 93 - Completion result obtained from language client
+Completion Provider - completion # 93 - Typed over previous completion
+Completion Provider - completion # 94 - New completion requested from language client at position {"line":73,"character":8}, triggerKind=1
+Completion Provider - completion # 94 - Completion result obtained from language client
+Completion Provider - completion # 94 - Typed over previous completion
+Completion Provider - completion # 95 - New completion requested from language client at position {"line":74,"character":12}, triggerKind=1
+Completion Provider - completion # 95 - Completion result obtained from language client
+Completion Provider - completion # 95 - Typed over previous completion
+Completion Provider - completion # 96 - New completion requested from language client at position {"line":74,"character":11}, triggerKind=1
+Completion Provider - completion # 96 - Completion result obtained from language client
+Completion Provider - completion # 96 - Typed over previous completion
+Completion Provider - completion # 97 - New completion requested from language client at position {"line":74,"character":10}, triggerKind=1
+Completion Provider - completion # 97 - Completion result obtained from language client
+Completion Provider - completion # 97 - Typed over previous completion
+Completion Provider - completion # 98 - New completion requested from language client at position {"line":74,"character":9}, triggerKind=1
+Completion Provider - completion # 98 - Completion result obtained from language client
+Completion Provider - completion # 98 - Typed over previous completion
+Completion Provider - completion # 99 - New completion requested from language client at position {"line":74,"character":8}, triggerKind=1
+Completion Provider - completion # 99 - Completion result obtained from language client
+Completion Provider - completion # 99 - Typed over previous completion
+Completion Provider - completion # 100 - New completion requested from language client at position {"line":74,"character":9}, triggerKind=1
+Completion Provider - completion # 100 - Completion result obtained from language client
+Completion Provider - completion # 100 - Typed over previous completion
+Completion Provider - completion # 101 - New completion requested from language client at position {"line":74,"character":9}, triggerKind=1
+Completion Provider - completion # 101 - Completion result obtained from language client
+Completion Provider - completion # 101 - Typed over previous completion
+Completion Provider - completion # 102 - New completion requested from language client at position {"line":73,"character":9}, triggerKind=1
+Completion Provider - completion # 102 - Completion result obtained from language client
+Completion Provider - completion # 102 - Typed over previous completion
+Completion Provider - completion # 103 - New completion requested from language client at position {"line":73,"character":9}, triggerKind=1
+Completion Provider - completion # 103 - Completion result obtained from language client
+Completion Provider - completion # 103 - Typed over previous completion
+Completion Provider - completion # 104 - New completion requested from language client at position {"line":73,"character":9}, triggerKind=1
+Completion Provider - completion # 104 - Completion result obtained from language client
+Completion Provider - completion # 104 - Typed over previous completion
+Completion Provider - completion # 105 - New completion requested from language client at position {"line":72,"character":9}, triggerKind=1
+Completion Provider - completion # 105 - Completion result obtained from language client
+Completion Provider - completion # 105 - Typed over previous completion
+Completion Provider - completion # 106 - New completion requested from language client at position {"line":72,"character":9}, triggerKind=1
+Completion Provider - completion # 106 - Completion result obtained from language client
+Completion Provider - completion # 106 - Typed over previous completion
+Completion Provider - completion # 107 - New completion requested from language client at position {"line":72,"character":29}, triggerKind=1
+Completion Provider - completion # 107 - Completion result obtained from language client
+Completion Provider - completion # 107 - Typed over previous completion
+Completion Provider - completion # 108 - New completion requested from language client at position {"line":73,"character":18}, triggerKind=1
+Completion Provider - completion # 108 - Completion result obtained from language client
+Completion Provider - completion # 108 - Typed over previous completion
+Completion Provider - completion # 109 - New completion requested from language client at position {"line":74,"character":22}, triggerKind=1
+Completion Provider - completion # 109 - Completion result obtained from language client
+Completion Provider - completion # 109 - Typed over previous completion
+Completion Provider - completion # 110 - New completion requested from language client at position {"line":74,"character":22}, triggerKind=1
+Completion Provider - completion # 110 - Completion result obtained from language client
+I0831 00:07:55.911156    1918 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+Completion Provider - completion # 110 - Typed over previous completion
+Completion Provider - completion # 111 - New completion requested from language client at position {"line":65,"character":4}, triggerKind=1
+Completion Provider - completion # 111 - Completion result obtained from language client
+Completion Provider - completion # 111 - Typed over previous completion
+Completion Provider - completion # 112 - New completion requested from language client at position {"line":66,"character":5}, triggerKind=1
+Completion Provider - completion # 112 - Completion result obtained from language client
+Completion Provider - completion # 112 - Typed over previous completion
+Completion Provider - completion # 113 - New completion requested from language client at position {"line":66,"character":4}, triggerKind=1
+Completion Provider - completion # 113 - Completion result obtained from language client
+Completion Provider - completion # 113 - Typed over previous completion
+Completion Provider - completion # 114 - New completion requested from language client at position {"line":66,"character":4}, triggerKind=1
+Completion Provider - completion # 114 - Completion result obtained from language client
+Completion Provider - completion # 114 - Typed over previous completion
+Completion Provider - completion # 115 - New completion requested from language client at position {"line":67,"character":4}, triggerKind=1
+Completion Provider - completion # 115 - Completion result obtained from language client
+Completion Provider - completion # 115 - Typed over previous completion
+Completion Provider - completion # 116 - New completion requested from language client at position {"line":68,"character":3}, triggerKind=1
+Completion Provider - completion # 116 - Completion result obtained from language client
+Completion Provider - completion # 116 - Typed over previous completion
+Completion Provider - completion # 117 - New completion requested from language client at position {"line":68,"character":3}, triggerKind=1
+Completion Provider - completion # 117 - Completion result obtained from language client
+I0831 00:08:55.911166    1918 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+Completion Provider - completion # 117 - Typed over previous completion
+Completion Provider - completion # 118 - New completion requested from language client at position {"line":58,"character":4}, triggerKind=1
+Completion Provider - completion # 118 - Completion result obtained from language client
+Completion Provider - completion # 118 - Typed over previous completion
+Completion Provider - completion # 119 - New completion requested from language client at position {"line":59,"character":5}, triggerKind=1
+Completion Provider - completion # 119 - Completion result obtained from language client
+Completion Provider - completion # 119 - Typed over previous completion
+Completion Provider - completion # 120 - New completion requested from language client at position {"line":60,"character":5}, triggerKind=1
+Completion Provider - completion # 120 - Completion result obtained from language client
+Completion Provider - completion # 120 - Typed over previous completion
+Completion Provider - completion # 121 - New completion requested from language client at position {"line":61,"character":6}, triggerKind=1
+Completion Provider - completion # 121 - Completion result obtained from language client
+Completion Provider - completion # 121 - Typed over previous completion
+Completion Provider - completion # 122 - New completion requested from language client at position {"line":62,"character":7}, triggerKind=1
+Completion Provider - completion # 122 - Completion result obtained from language client
+Completion Provider - completion # 122 - Typed over previous completion
+Completion Provider - completion # 123 - New completion requested from language client at position {"line":63,"character":8}, triggerKind=1
+Completion Provider - completion # 123 - Completion result obtained from language client
+Completion Provider - completion # 123 - Typed over previous completion
+Completion Provider - completion # 124 - New completion requested from language client at position {"line":64,"character":4}, triggerKind=1
+Completion Provider - completion # 124 - Completion result obtained from language client
+Completion Provider - completion # 124 - Typed over previous completion
+Completion Provider - completion # 125 - New completion requested from language client at position {"line":69,"character":4}, triggerKind=1
+Completion Provider - completion # 125 - Completion result obtained from language client
+Completion Provider - completion # 125 - Typed over previous completion
+Completion Provider - completion # 126 - New completion requested from language client at position {"line":69,"character":3}, triggerKind=1
+Completion Provider - completion # 126 - Completion result obtained from language client
+Completion Provider - completion # 126 - Typed over previous completion
+Completion Provider - completion # 127 - New completion requested from language client at position {"line":69,"character":4}, triggerKind=1
+Completion Provider - completion # 127 - Completion result obtained from language client
+Completion Provider - completion # 127 - Typed over previous completion
+Completion Provider - completion # 128 - New completion requested from language client at position {"line":70,"character":4}, triggerKind=1
+Completion Provider - completion # 128 - Completion result obtained from language client
+I0831 00:09:55.911189    1918 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+I0831 00:11:55.911265    1918 life_cycle.go:226] codeReportBasicEvery: recomputing codereportbasic metric
+I0831 00:12:22.786908    1918 handler.go:142] cancel was requested for: 774, needs to be canceled: false
+I0831 00:12:22.786931    1918 handler.go:146] cancel requested for 774 but not found

@@ -1,0 +1,76 @@
+2024-09-02 11:30:28.049 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "4"
+
+2024-09-02 11:31:55.318 [info] [Error - 11:31:55 AM] Server process exited with signal SIGTERM.
+2024-09-02 11:40:16.371 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "5"
+
+2024-09-02 11:55:16.628 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "22"
+
+2024-09-02 11:55:27.797 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "24"
+
+2024-09-02 11:56:23.312 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "35"
+
+2024-09-02 12:04:47.905 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "68"
+
+2024-09-02 12:04:53.818 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "72"
+WARNING:pygls.protocol:Cancel notification for unknown message id "71"
+
+2024-09-02 12:04:56.293 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "73"
+
+2024-09-02 12:06:03.905 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "103"
+
+2024-09-02 12:06:04.816 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "106"
+
+2024-09-02 12:06:36.236 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "117"
+
+2024-09-02 12:07:04.900 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "131"
+
+2024-09-02 12:07:05.731 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "134"
+
+2024-09-02 12:07:06.966 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "136"
+
+2024-09-02 12:08:06.220 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "157"
+
+2024-09-02 12:08:08.250 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "160"
+
+2024-09-02 12:08:10.589 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "162"
+
+2024-09-02 12:08:44.292 [info] ERROR:pygls.protocol:Failed to handle request 178 textDocument/documentHighlight DocumentHighlightParams(text_document=TextDocumentIdentifier(uri='file:///home/reid_butler/python-docs-samples/video/live-stream/input_test.py'), position=28:2, work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 364, in highlight
+    names = jedi_script.get_references(*jedi_lines, scope="file")
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+ValueError: `column` parameter (2) is not in a valid range (0-0) for line 29 ('\n').
+
+2024-09-02 12:08:44.296 [info] [Error - 12:08:44 PM] Request textDocument/documentHighlight failed.
+2024-09-02 12:08:44.296 [info]   Message: ValueError: `column` parameter (2) is not in a valid range (0-0) for line 29 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 364, in highlight\n    names = jedi_script.get_references(*jedi_lines, scope="file")\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper\n    raise ValueError(\'`column` parameter (%d) is not in a valid range \'\n']}
+2024-09-02 12:09:37.644 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "182"
+
+2024-09-02 12:09:37.676 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "184"
+
+2024-09-02 12:09:37.702 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "183"
+
+2024-09-02 12:09:37.766 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "185"
+
+2024-09-02 12:09:37.773 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "187"
+
+2024-09-02 12:09:38.411 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "186"
+
+2024-09-02 12:10:06.319 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "204"
+
+2024-09-02 12:10:33.510 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "211"
+
+2024-09-02 12:19:48.413 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "289"
+
+2024-09-02 12:56:43.670 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "374"
+
+2024-09-02 12:57:37.020 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "391"
+
+2024-09-02 12:58:17.722 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "410"
+
